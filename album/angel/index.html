@@ -1,4 +1,939 @@
-<!DOCTYPE HTML><html lang="zh-CN"><head><meta charset="utf-8"><meta name="keywords" content="HTML,CSS,JavaScript,JQuery,React,Vue.js等"><meta name="description" content="过客~励む"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"><meta name="renderer" content="webkit|ie-stand|ie-comp"><meta name="mobile-web-app-capable" content="yes"><meta name="format-detection" content="telephone=no"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"><meta name="google-site-verification" content="_Yxe-z9eMYY_SRPAcIzAbYH5As14vyJJcWZRdsz82oo"><meta name="baidu-site-verification" content="ukPosCpWvc"><meta name="sogou_site_verification" content="gPRA4fogql"><meta name="msvalidate.01" content="24D491BCFF09B589F74D051A28BEA16A"><title>过客~励む</title><link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/favicon.png"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/libs/awesome/css/all.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/libs/materialize/materialize.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/libs/aos/aos.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/libs/animate/animate.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/libs/lightGallery/css/lightgallery.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/css/matery.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/css/my.css"><script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/libs/jquery/jquery.min.js"></script><link rel="stylesheet" href="/css/prism-atom-dark.css"><link rel="stylesheet" href="/css/prism-line-numbers.css"></head><body><header class="navbar-fixed"><nav id="headNav" class="bg-color nav-transparent"><div id="navContainer" class="nav-wrapper head-container"><div class="brand-logo"><a href="/" class="waves-effect waves-light"><div><img src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/logo.png" class="logo-img" alt="LOGO"> <span class="logo-span">过客~励む</span></div></a></div><a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a><ul class="right nav-menu"><li class="hide-on-med-and-down nav-item"><a href="/" class="waves-effect waves-light"><i class="fas fa-home" style="zoom:.6"></i> <span>首页</span></a></li><li class="hide-on-med-and-down nav-item"><a href="/" class="waves-effect waves-light"><i class="fas fa-sitemap" style="zoom:.6"></i> <span>统计</span><i class="fas fa-chevron-down" aria-hidden="true" style="zoom:.6"></i></a><ul class="sub-nav menus_item_child"><li><a href="/categories"><i class="fas fa-bookmark" style="margin-top:-20px;zoom:.6"></i> <span>分类</span></a></li><li><a href="/tags"><i class="fas fa-tags" style="margin-top:-20px;zoom:.6"></i> <span>标签</span></a></li><li><a href="/archives"><i class="fas fa-archive" style="margin-top:-20px;zoom:.6"></i> <span>归档</span></a></li></ul></li><li class="hide-on-med-and-down nav-item"><a href="/" class="waves-effect waves-light"><i class="fas fa-list" style="zoom:.6"></i> <span>媒体</span><i class="fas fa-chevron-down" aria-hidden="true" style="zoom:.6"></i></a><ul class="sub-nav menus_item_child"><li><a href="/movies"><i class="fas fa-film" style="margin-top:-20px;zoom:.6"></i> <span>电影</span></a></li><li><a href="/books"><i class="fas fa-book" style="margin-top:-20px;zoom:.6"></i> <span>书单</span></a></li><li><a href="/album"><i class="fas fa-camera" style="margin-top:-20px;zoom:.6"></i> <span>相册</span></a></li></ul></li><li class="hide-on-med-and-down nav-item"><a href="/" class="waves-effect waves-light"><i class="fas fa-address-card" style="zoom:.6"></i> <span>关于</span><i class="fas fa-chevron-down" aria-hidden="true" style="zoom:.6"></i></a><ul class="sub-nav menus_item_child"><li><a href="/about"><i class="fas fa-user-circle" style="margin-top:-20px;zoom:.6"></i> <span>关于我</span></a></li><li><a href="/aboutme"><i class="fa fa-user-secret" style="margin-top:-20px;zoom:.6"></i> <span>Another</span></a></li></ul></li><li class="hide-on-med-and-down nav-item"><a href="/contact" class="waves-effect waves-light"><i class="fas fa-comments" style="zoom:.6"></i> <span>留言板</span></a></li><li class="hide-on-med-and-down nav-item"><a href="/friends" class="waves-effect waves-light"><i class="fas fa-share-alt" style="zoom:.6"></i> <span>友情链接</span></a></li><li><a href="#searchModal" class="modal-trigger waves-effect waves-light"><i id="searchIcon" class="fas fa-search" title="搜索" style="zoom:.85"></i></a></li></ul><div id="mobile-nav" class="side-nav sidenav"><div class="mobile-head bg-color"><img src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/logo.png" class="logo-img circle responsive-img"><div class="logo-name">过客~励む</div><div class="logo-desc">专注于Web,分享生活,分享知识</div></div><ul class="menu-list mobile-menu-list"><li class="m-nav-item"><a href="/" class="waves-effect waves-light"><i class="fa-fw fas fa-home"></i> 首页</a></li><li class="m-nav-item"><a href="javascript:;"><i class="fa-fw fas fa-sitemap"></i> 统计<span class="m-icon"><i class="fas fa-chevron-right"></i></span></a><ul><li><a href="/categories" style="margin-left:75px" ;><i class="fa fas fa-bookmark" style="position:absolute;left:50px"></i> <span>分类</span></a></li><li><a href="/tags" style="margin-left:75px" ;><i class="fa fas fa-tags" style="position:absolute;left:50px"></i> <span>标签</span></a></li><li><a href="/archives" style="margin-left:75px" ;><i class="fa fas fa-archive" style="position:absolute;left:50px"></i> <span>归档</span></a></li></ul></li><li class="m-nav-item"><a href="javascript:;"><i class="fa-fw fas fa-list"></i> 媒体<span class="m-icon"><i class="fas fa-chevron-right"></i></span></a><ul><li><a href="/movies" style="margin-left:75px" ;><i class="fa fas fa-film" style="position:absolute;left:50px"></i> <span>电影</span></a></li><li><a href="/books" style="margin-left:75px" ;><i class="fa fas fa-book" style="position:absolute;left:50px"></i> <span>书单</span></a></li><li><a href="/album" style="margin-left:75px" ;><i class="fa fas fa-camera" style="position:absolute;left:50px"></i> <span>相册</span></a></li></ul></li><li class="m-nav-item"><a href="javascript:;"><i class="fa-fw fas fa-address-card"></i> 关于<span class="m-icon"><i class="fas fa-chevron-right"></i></span></a><ul><li><a href="/about" style="margin-left:75px" ;><i class="fa fas fa-user-circle" style="position:absolute;left:50px"></i> <span>关于我</span></a></li><li><a href="/aboutme" style="margin-left:75px" ;><i class="fa fa fa-user-secret" style="position:absolute;left:50px"></i> <span>Another</span></a></li></ul></li><li class="m-nav-item"><a href="/contact" class="waves-effect waves-light"><i class="fa-fw fas fa-comments"></i> 留言板</a></li><li class="m-nav-item"><a href="/friends" class="waves-effect waves-light"><i class="fa-fw fas fa-share-alt"></i> 友情链接</a></li></ul></div></div></nav></header><div class="bg-cover pd-header about-cover"><div class="container"><div class="row"><div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2"><div class="brand"><div class="title center-align">励む</div><div class="description center-align"><span id="subtitle"></span><script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script><script>var typed=new Typed("#subtitle",{strings:["志之所向，金石为开，谁能御之？","花开不是为了花落，而是为了开的更加灿烂。","没有伞的孩子必须努力奔跑！","欲望以提升热忱，毅力以磨平高山。","如果放弃太早，你永远都不知道自己会错过什么。","没有礁石，就没有美丽的浪花；没有挫折，就没有壮丽的人生。"],startDelay:300,typeSpeed:100,loop:!0,backSpeed:50,showCursor:!0})</script></div></div></div></div><script>$(".bg-cover").css("background-image","url(https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/medias/banner/"+(new Date).getDay()+".jpg)")</script></div></div><main class="content"><div class="container" id="album" style="margin-top:-60pimagesx"><div class="card"><div class="card-content"><div class="tag-title center-align"><h2><i class="fas fa-images"></i>&nbsp;&nbsp;图库小阁楼</h2></div><style>.grid{padding:10px 0;display:flex;flex-direction:row;justify-content:space-around;align-items:center;flex-wrap:wrap}.grid-item{display:block;width:300px;margin:5px;cursor:pointer}.grid-item img{width:300px;border-radius:10px}</style><div class="grid"><div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/0.jpg" data-sub-html=".caption" data-aos="zoom-in-up"><img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif" data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/0.jpg" referrerpolicy="no-referrer" class="img-shadow img-margin unload"></div><div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/1.jpg" data-sub-html=".caption" data-aos="zoom-in-up"><img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif" data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/1.jpg" referrerpolicy="no-referrer" class="img-shadow img-margin unload"></div><div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/2.jpg" data-sub-html=".caption" data-aos="zoom-in-up"><img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif" data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/2.jpg" referrerpolicy="no-referrer" class="img-shadow img-margin unload"></div><div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/3.jpg" data-sub-html=".caption" data-aos="zoom-in-up"><img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif" data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/3.jpg" referrerpolicy="no-referrer" class="img-shadow img-margin unload"></div><div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/4.jpg" data-sub-html=".caption" data-aos="zoom-in-up"><img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif" data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/4.jpg" referrerpolicy="no-referrer" class="img-shadow img-margin unload"></div><div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/5.jpg" data-sub-html=".caption" data-aos="zoom-in-up"><img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif" data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/5.jpg" referrerpolicy="no-referrer" class="img-shadow img-margin unload"></div><div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/6.jpg" data-sub-html=".caption" data-aos="zoom-in-up"><img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif" data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/6.jpg" referrerpolicy="no-referrer" class="img-shadow img-margin unload"></div><div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/7.jpg" data-sub-html=".caption" data-aos="zoom-in-up"><img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif" data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/7.jpg" referrerpolicy="no-referrer" class="img-shadow img-margin unload"></div><div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/8.jpg" data-sub-html=".caption" data-aos="zoom-in-up"><img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif" data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/8.jpg" referrerpolicy="no-referrer" class="img-shadow img-margin unload"></div><div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/9.jpg" data-sub-html=".caption" data-aos="zoom-in-up"><img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif" data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/9.jpg" referrerpolicy="no-referrer" class="img-shadow img-margin unload"></div><div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/10.jpg" data-sub-html=".caption" data-aos="zoom-in-up"><img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif" data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/10.jpg" referrerpolicy="no-referrer" class="img-shadow img-margin unload"></div><div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/11.jpg" data-sub-html=".caption" data-aos="zoom-in-up"><img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif" data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/11.jpg" referrerpolicy="no-referrer" class="img-shadow img-margin unload"></div><div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/12.jpg" data-sub-html=".caption" data-aos="zoom-in-up"><img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif" data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/12.jpg" referrerpolicy="no-referrer" class="img-shadow img-margin unload"></div><div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/13.jpg" data-sub-html=".caption" data-aos="zoom-in-up"><img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif" data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/13.jpg" referrerpolicy="no-referrer" class="img-shadow img-margin unload"></div><div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/14.jpg" data-sub-html=".caption" data-aos="zoom-in-up"><img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif" data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/14.jpg" referrerpolicy="no-referrer" class="img-shadow img-margin unload"></div><div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/15.jpg" data-sub-html=".caption" data-aos="zoom-in-up"><img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif" data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/15.jpg" referrerpolicy="no-referrer" class="img-shadow img-margin unload"></div><div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/16.jpg" data-sub-html=".caption" data-aos="zoom-in-up"><img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif" data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/16.jpg" referrerpolicy="no-referrer" class="img-shadow img-margin unload"></div><div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/17.jpg" data-sub-html=".caption" data-aos="zoom-in-up"><img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif" data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/17.jpg" referrerpolicy="no-referrer" class="img-shadow img-margin unload"></div><div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/18.jpg" data-sub-html=".caption" data-aos="zoom-in-up"><img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif" data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/18.jpg" referrerpolicy="no-referrer" class="img-shadow img-margin unload"></div><div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/19.jpg" data-sub-html=".caption" data-aos="zoom-in-up"><img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif" data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/19.jpg" referrerpolicy="no-referrer" class="img-shadow img-margin unload"></div><div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/20.jpg" data-sub-html=".caption" data-aos="zoom-in-up"><img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif" data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/20.jpg" referrerpolicy="no-referrer" class="img-shadow img-margin unload"></div><div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/21.jpg" data-sub-html=".caption" data-aos="zoom-in-up"><img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif" data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/21.jpg" referrerpolicy="no-referrer" class="img-shadow img-margin unload"></div><div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/22.jpg" data-sub-html=".caption" data-aos="zoom-in-up"><img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif" data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/22.jpg" referrerpolicy="no-referrer" class="img-shadow img-margin unload"></div><div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/23.jpg" data-sub-html=".caption" data-aos="zoom-in-up"><img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif" data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/23.jpg" referrerpolicy="no-referrer" class="img-shadow img-margin unload"></div></div></div></div></div></main><div class="container paging"><div class="row"><div class="col s6 m4 l4"><a class="left btn-floating btn-large disabled"><i class="fas fa-angle-left"></i></a></div><div class="page-info col m4 l4 hide-on-small-only"><div class="center-align b-text-gray">1 / 2</div></div><div class="col s6 m4 l4"><a class="right btn-floating btn-large waves-effect waves-light bg-color" href="/album/angel/2/"><i class="fas fa-angle-right"></i></a></div></div></div><footer class="page-footer bg-color"><div class="container row center-align"><div class="col s12 m8 l8 copy-right">Copyright&nbsp;&copy; <span id="year">年份</span> <a href="https://yafine-blog.cn" target="_blank">YangAir</a><br>&nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span class="white-color">30.2k</span>&nbsp;字 <span id="busuanzi_container_site_pv">|&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv" class="white-color"></span>&nbsp;次</span> <span id="busuanzi_container_site_uv">|&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv" class="white-color"></span>&nbsp;人</span><br><span id="sitetime">载入运行时间...</span><script>function siteTime(){window.setTimeout("siteTime()",1e3);var e=36e5,t=24*e,n=new Date,o="2019",i=n.getFullYear(),r=n.getMonth()+1,a=n.getDate(),m=n.getHours(),l=n.getMinutes(),M=n.getSeconds(),d=Date.UTC(o,"10","28","16","0","0"),g=Date.UTC(i,r,a,m,l,M)-d,s=Math.floor(g/31536e6),T=Math.floor(g/t-365*s),u=Math.floor((g-(365*s+T)*t)/e),c=Math.floor((g-(365*s+T)*t-u*e)/6e4),f=Math.floor((g-(365*s+T)*t-u*e-6e4*c)/1e3);o==i?(document.getElementById("year").innerHTML=i,document.getElementById("sitetime").innerHTML="本站已安全运行 "+T+" 天 "+u+" 小时 "+c+" 分钟 "+f+" 秒"):(document.getElementById("year").innerHTML=o+" - "+i,document.getElementById("sitetime").innerHTML="本站已安全运行 "+s+" 年 "+T+" 天 "+u+" 小时 "+c+" 分钟 "+f+" 秒")}setInterval(siteTime,1e3)</script><br></div><div class="col s12 m4 l4 social-link social-statis"><a href="https://github.com/Yafine" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50"><i class="fab fa-github"></i></a><a href="mailto:mailto:13213072761@163.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50"><i class="fas fa-envelope-open"></i></a><a href="http://wpa.qq.com/msgrd?v=3&uin=10358001458&site=qq&menu=yes" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1035800145" data-position="top" data-delay="50"><i class="fab fa-qq"></i></a><a href="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/wechat.png" class="tooltipped" target="_blank" data-tooltip="微信联系我: https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/wechat.png" data-position="top" data-delay="50"><i class="fab fa-weixin"></i></a> <a href="https://blog.csdn.net/victoryxa" class="tooltipped" target="_blank" data-tooltip="关注我的CSDN: https://blog.csdn.net/victoryxa" data-position="top" data-delay="50"><i class="fab fa-csdn">C</i></a><a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50"><i class="fas fa-rss"></i></a></div></div></footer><div class="progress-bar"></div><div id="searchModal" class="modal"><div class="modal-content"><div class="search-header"><span class="title"><i class="fas fa-search"></i> &nbsp;&nbsp;搜索</span> <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字" class="search-input"></div><div id="searchResult"></div></div></div><script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/js/search.js"></script><script>$(function(){searchFunc("/search.xml","searchInput","searchResult")})</script><div id="backTop" class="top-scroll"><a class="btn-floating btn-large waves-effect waves-light" href="#!"><i class="fas fa-arrow-up"></i></a></div><script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/libs/materialize/materialize.min.js"></script><script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/libs/masonry/masonry.pkgd.min.js"></script><script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/libs/aos/aos.js"></script><script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/libs/scrollprogress/scrollProgress.min.js"></script><script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/libs/lightGallery/js/lightgallery-all.min.js"></script><script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.2/source/js/matery.js"></script><script async src="https://www.googletagmanager.com/gtag/js?id=214014838"></script><script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","214014838")</script><script>var _hmt=_hmt||[];!function(){var e=document.createElement("script");e.src="https://hm.baidu.com/hm.js?12c4949ccded8725d72796f9cafb6249";var t=document.getElementsByTagName("script")[0];t.parentNode.insertBefore(e,t)}()</script><script>!function(){var t=document.createElement("script"),e=window.location.protocol.split(":")[0];t.src="https"===e?"https://zz.bdstatic.com/linksubmit/push.js":"http://push.zhanzhang.baidu.com/push.js";var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(t,s)}()</script><script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/libs/others/clicklove.js" async></script><script async src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/libs/others/busuanzi.pure.mini.js"></script><script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/libs/background/ribbon-dynamic.js" async></script><script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/libs/instantpage/instantpage.js" type="module"></script><script>window.$crisp=[],window.CRISP_WEBSITE_ID="6a511ac1-4992-4e21-8b54-19e2695fc8d8",d=document,s=d.createElement("script"),s.src="https://client.crisp.chat/l.js",s.async=1,d.getElementsByTagName("head")[0].appendChild(s)</script><script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.2/source/js/FunnyTitle.js"></script><script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/js/click_show_text.js"></script><script src="//cdn.jsdelivr.net/npm/js-base64/base64.min.js"></script><script>$('a').each(function() {
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="HTML,CSS,JavaScript,JQuery,React,Vue.js等">
+    <meta name="description" content="过客~励む">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit|ie-stand|ie-comp">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="google-site-verification" content="_Yxe-z9eMYY_SRPAcIzAbYH5As14vyJJcWZRdsz82oo" />
+    <meta name="baidu-site-verification" content="ukPosCpWvc" />
+    <meta name="sogou_site_verification" content="gPRA4fogql"/>
+
+    <meta name="msvalidate.01" content="24D491BCFF09B589F74D051A28BEA16A" />
+    <title>过客~励む</title>
+    <link rel="icon" type="image/png" href="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/libs/awesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/libs/materialize/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/libs/aos/aos.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/libs/animate/animate.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/libs/lightGallery/css/lightgallery.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/css/matery.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/css/my.css">
+    <script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/libs/jquery/jquery.min.js"></script>
+    
+
+<link rel="stylesheet" href="/css/prism-atom-dark.css" type="text/css">
+<link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
+
+
+<body>
+    <header class="navbar-fixed">
+    <nav id="headNav" class="bg-color nav-transparent">
+        <div id="navContainer" class="nav-wrapper head-container">
+            <!-- <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    
+                    <img src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/logo.png" class="logo-img" alt="LOGO">
+                    
+                    <span class="logo-span">过客~励む</span>
+                </a>
+            </div> -->
+            <div class="brand-logo">
+                <a href="/" class="waves-effect waves-light">
+                    <div>
+                        
+                        <img src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/logo.png" class="logo-img" alt="LOGO">
+                        
+                        <span class="logo-span">过客~励む</span>
+                    </div>
+                </a>
+            </div>
+            
+
+<a href="#" data-target="mobile-nav" class="sidenav-trigger button-collapse"><i class="fas fa-bars"></i></a>
+<ul class="right nav-menu">
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+      
+      <i class="fas fa-home" style="zoom: 0.6;"></i>
+      
+      <span>首页</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+
+      
+      <i class="fas fa-sitemap" style="zoom: 0.6;"></i>
+      
+      <span>统计</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
+    </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/categories">
+          
+          <i class="fas fa-bookmark" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>分类</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/tags">
+          
+          <i class="fas fa-tags" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>标签</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/archives">
+          
+          <i class="fas fa-archive" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>归档</span>
+        </a>
+      </li>
+      
+    </ul>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+
+      
+      <i class="fas fa-list" style="zoom: 0.6;"></i>
+      
+      <span>媒体</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
+    </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/movies">
+          
+          <i class="fas fa-film" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>电影</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/books">
+          
+          <i class="fas fa-book" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>书单</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/album">
+          
+          <i class="fas fa-camera" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>相册</span>
+        </a>
+      </li>
+      
+    </ul>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/" class="waves-effect waves-light">
+
+      
+      <i class="fas fa-address-card" style="zoom: 0.6;"></i>
+      
+      <span>关于</span>
+      <i class="fas fa-chevron-down" aria-hidden="true" style="zoom: 0.6;"></i>
+    </a>
+    <ul class="sub-nav menus_item_child ">
+      
+      <li>
+        <a href="/about">
+          
+          <i class="fas fa-user-circle" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>关于我</span>
+        </a>
+      </li>
+      
+      <li>
+        <a href="/aboutme">
+          
+          <i class="fa fa-user-secret" style="margin-top: -20px; zoom: 0.6;"></i>
+          
+          <span>Another</span>
+        </a>
+      </li>
+      
+    </ul>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/contact" class="waves-effect waves-light">
+      
+      <i class="fas fa-comments" style="zoom: 0.6;"></i>
+      
+      <span>留言板</span>
+    </a>
+    
+  </li>
+  
+  <li class="hide-on-med-and-down nav-item">
+    
+    <a href="/friends" class="waves-effect waves-light">
+      
+      <i class="fas fa-share-alt" style="zoom: 0.6;"></i>
+      
+      <span>友情链接</span>
+    </a>
+    
+  </li>
+  
+  <li>
+    <a href="#searchModal" class="modal-trigger waves-effect waves-light">
+      <i id="searchIcon" class="fas fa-search" title="搜索" style="zoom: 0.85;"></i>
+    </a>
+  </li>
+</ul>
+
+<div id="mobile-nav" class="side-nav sidenav">
+
+    <div class="mobile-head bg-color">
+        
+        <img src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/loading.gif" data-original="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/logo.png" class="logo-img circle responsive-img">
+        
+        <div class="logo-name">过客~励む</div>
+        <div class="logo-desc">
+            
+            专注于Web,分享生活,分享知识
+            
+        </div>
+    </div>
+
+    
+
+    <ul class="menu-list mobile-menu-list">
+        
+        <li class="m-nav-item">
+	  
+		<a href="/" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-home"></i>
+			
+			首页
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="javascript:;">
+			
+				<i class="fa-fw fas fa-sitemap"></i>
+			
+			统计
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
+		</a>
+            <ul  style="background:  ;" >
+              
+                <li>   
+				
+                  <a href="/categories " style="margin-left:75px";>
+				  
+				   <i class="fa fas fa-bookmark" style="position: absolute;left:50px" ></i>
+			      
+		          <span>分类</span>
+                  </a>
+                </li>
+              
+                <li>   
+				
+                  <a href="/tags " style="margin-left:75px";>
+				  
+				   <i class="fa fas fa-tags" style="position: absolute;left:50px" ></i>
+			      
+		          <span>标签</span>
+                  </a>
+                </li>
+              
+                <li>   
+				
+                  <a href="/archives " style="margin-left:75px";>
+				  
+				   <i class="fa fas fa-archive" style="position: absolute;left:50px" ></i>
+			      
+		          <span>归档</span>
+                  </a>
+                </li>
+               
+            </ul>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="javascript:;">
+			
+				<i class="fa-fw fas fa-list"></i>
+			
+			媒体
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
+		</a>
+            <ul  style="background:  ;" >
+              
+                <li>   
+				
+                  <a href="/movies " style="margin-left:75px";>
+				  
+				   <i class="fa fas fa-film" style="position: absolute;left:50px" ></i>
+			      
+		          <span>电影</span>
+                  </a>
+                </li>
+              
+                <li>   
+				
+                  <a href="/books " style="margin-left:75px";>
+				  
+				   <i class="fa fas fa-book" style="position: absolute;left:50px" ></i>
+			      
+		          <span>书单</span>
+                  </a>
+                </li>
+              
+                <li>   
+				
+                  <a href="/album " style="margin-left:75px";>
+				  
+				   <i class="fa fas fa-camera" style="position: absolute;left:50px" ></i>
+			      
+		          <span>相册</span>
+                  </a>
+                </li>
+               
+            </ul>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="javascript:;">
+			
+				<i class="fa-fw fas fa-address-card"></i>
+			
+			关于
+			<span class="m-icon"><i class="fas fa-chevron-right"></i></span>
+		</a>
+            <ul  style="background:  ;" >
+              
+                <li>   
+				
+                  <a href="/about " style="margin-left:75px";>
+				  
+				   <i class="fa fas fa-user-circle" style="position: absolute;left:50px" ></i>
+			      
+		          <span>关于我</span>
+                  </a>
+                </li>
+              
+                <li>   
+				
+                  <a href="/aboutme " style="margin-left:75px";>
+				  
+				   <i class="fa fa fa-user-secret" style="position: absolute;left:50px" ></i>
+			      
+		          <span>Another</span>
+                  </a>
+                </li>
+               
+            </ul>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/contact" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-comments"></i>
+			
+			留言板
+		</a>
+          
+        </li>
+        
+        <li class="m-nav-item">
+	  
+		<a href="/friends" class="waves-effect waves-light">
+			
+			    <i class="fa-fw fas fa-share-alt"></i>
+			
+			友情链接
+		</a>
+          
+        </li>
+        
+        
+    </ul>
+</div>
+
+        </div>
+
+        
+    </nav>
+
+</header>
+
+    <div class="bg-cover pd-header about-cover">
+    <div class="container">
+    <div class="row">
+    <div class="col s10 offset-s1 m8 offset-m2 l8 offset-l2">
+        <div class="brand">
+            <div class="title center-align">
+                
+                励む
+                
+            </div>
+
+            <div class="description center-align">
+                
+                <span id="subtitle"></span>
+                <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+                <script>
+                    var typed = new Typed("#subtitle", {
+                        strings: ['志之所向，金石为开，谁能御之？','花开不是为了花落，而是为了开的更加灿烂。','没有伞的孩子必须努力奔跑！','欲望以提升热忱，毅力以磨平高山。','如果放弃太早，你永远都不知道自己会错过什么。','没有礁石，就没有美丽的浪花；没有挫折，就没有壮丽的人生。'],
+                        startDelay: 300,
+                        typeSpeed: 100,
+                        loop: true,   
+                        backSpeed: 50,
+                        showCursor: true
+                    });
+                </script>
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+    // 每天切换 banner 图.  Switch banner image every day.
+    $('.bg-cover').css('background-image', 'url(https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/medias/banner/' + new Date().getDay() + '.jpg)');
+</script>
+
+
+    </div>
+</div>
+
+<main class="content">
+    <div class="container" id="album" style="margin-top: -60pimagesx;">
+        <div class="card">
+            <div class="card-content">
+                <div class="tag-title center-align">
+                    <h2><i class="fas fa-images"></i>&nbsp;&nbsp;图库小阁楼</h2>
+                </div>
+                
+                    
+                    <style type="text/css">
+                        .grid {
+                            padding: 10px 0;
+                            display: flex;
+                            flex-direction: row;
+                            justify-content: space-around;
+                            align-items: center;
+                            flex-wrap: wrap;
+                        }
+
+                        .grid-item {
+                            display: block;
+                            width: 300px;
+                            margin: 5px;
+                            cursor: pointer;
+                        }
+
+                        .grid-item img {
+                            width: 300px;
+                            border-radius: 10px;
+                        }
+
+                    </style>
+                    <div class="grid">
+                        
+                            <div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/0.jpg" data-sub-html=".caption"
+                                 data-aos="zoom-in-up">
+                                <img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif"
+                                     data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/0.jpg" referrerpolicy="no-referrer"
+                                     class="img-shadow img-margin unload">
+                            </div>
+                        
+                            <div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/1.jpg" data-sub-html=".caption"
+                                 data-aos="zoom-in-up">
+                                <img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif"
+                                     data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/1.jpg" referrerpolicy="no-referrer"
+                                     class="img-shadow img-margin unload">
+                            </div>
+                        
+                            <div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/2.jpg" data-sub-html=".caption"
+                                 data-aos="zoom-in-up">
+                                <img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif"
+                                     data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/2.jpg" referrerpolicy="no-referrer"
+                                     class="img-shadow img-margin unload">
+                            </div>
+                        
+                            <div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/3.jpg" data-sub-html=".caption"
+                                 data-aos="zoom-in-up">
+                                <img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif"
+                                     data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/3.jpg" referrerpolicy="no-referrer"
+                                     class="img-shadow img-margin unload">
+                            </div>
+                        
+                            <div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/4.jpg" data-sub-html=".caption"
+                                 data-aos="zoom-in-up">
+                                <img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif"
+                                     data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/4.jpg" referrerpolicy="no-referrer"
+                                     class="img-shadow img-margin unload">
+                            </div>
+                        
+                            <div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/5.jpg" data-sub-html=".caption"
+                                 data-aos="zoom-in-up">
+                                <img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif"
+                                     data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/5.jpg" referrerpolicy="no-referrer"
+                                     class="img-shadow img-margin unload">
+                            </div>
+                        
+                            <div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/6.jpg" data-sub-html=".caption"
+                                 data-aos="zoom-in-up">
+                                <img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif"
+                                     data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/6.jpg" referrerpolicy="no-referrer"
+                                     class="img-shadow img-margin unload">
+                            </div>
+                        
+                            <div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/7.jpg" data-sub-html=".caption"
+                                 data-aos="zoom-in-up">
+                                <img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif"
+                                     data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/7.jpg" referrerpolicy="no-referrer"
+                                     class="img-shadow img-margin unload">
+                            </div>
+                        
+                            <div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/8.jpg" data-sub-html=".caption"
+                                 data-aos="zoom-in-up">
+                                <img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif"
+                                     data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/8.jpg" referrerpolicy="no-referrer"
+                                     class="img-shadow img-margin unload">
+                            </div>
+                        
+                            <div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/9.jpg" data-sub-html=".caption"
+                                 data-aos="zoom-in-up">
+                                <img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif"
+                                     data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/9.jpg" referrerpolicy="no-referrer"
+                                     class="img-shadow img-margin unload">
+                            </div>
+                        
+                            <div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/10.jpg" data-sub-html=".caption"
+                                 data-aos="zoom-in-up">
+                                <img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif"
+                                     data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/10.jpg" referrerpolicy="no-referrer"
+                                     class="img-shadow img-margin unload">
+                            </div>
+                        
+                            <div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/11.jpg" data-sub-html=".caption"
+                                 data-aos="zoom-in-up">
+                                <img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif"
+                                     data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/11.jpg" referrerpolicy="no-referrer"
+                                     class="img-shadow img-margin unload">
+                            </div>
+                        
+                            <div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/12.jpg" data-sub-html=".caption"
+                                 data-aos="zoom-in-up">
+                                <img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif"
+                                     data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/12.jpg" referrerpolicy="no-referrer"
+                                     class="img-shadow img-margin unload">
+                            </div>
+                        
+                            <div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/13.jpg" data-sub-html=".caption"
+                                 data-aos="zoom-in-up">
+                                <img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif"
+                                     data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/13.jpg" referrerpolicy="no-referrer"
+                                     class="img-shadow img-margin unload">
+                            </div>
+                        
+                            <div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/14.jpg" data-sub-html=".caption"
+                                 data-aos="zoom-in-up">
+                                <img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif"
+                                     data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/14.jpg" referrerpolicy="no-referrer"
+                                     class="img-shadow img-margin unload">
+                            </div>
+                        
+                            <div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/15.jpg" data-sub-html=".caption"
+                                 data-aos="zoom-in-up">
+                                <img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif"
+                                     data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/15.jpg" referrerpolicy="no-referrer"
+                                     class="img-shadow img-margin unload">
+                            </div>
+                        
+                            <div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/16.jpg" data-sub-html=".caption"
+                                 data-aos="zoom-in-up">
+                                <img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif"
+                                     data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/16.jpg" referrerpolicy="no-referrer"
+                                     class="img-shadow img-margin unload">
+                            </div>
+                        
+                            <div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/17.jpg" data-sub-html=".caption"
+                                 data-aos="zoom-in-up">
+                                <img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif"
+                                     data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/17.jpg" referrerpolicy="no-referrer"
+                                     class="img-shadow img-margin unload">
+                            </div>
+                        
+                            <div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/18.jpg" data-sub-html=".caption"
+                                 data-aos="zoom-in-up">
+                                <img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif"
+                                     data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/18.jpg" referrerpolicy="no-referrer"
+                                     class="img-shadow img-margin unload">
+                            </div>
+                        
+                            <div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/19.jpg" data-sub-html=".caption"
+                                 data-aos="zoom-in-up">
+                                <img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif"
+                                     data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/19.jpg" referrerpolicy="no-referrer"
+                                     class="img-shadow img-margin unload">
+                            </div>
+                        
+                            <div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/20.jpg" data-sub-html=".caption"
+                                 data-aos="zoom-in-up">
+                                <img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif"
+                                     data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/20.jpg" referrerpolicy="no-referrer"
+                                     class="img-shadow img-margin unload">
+                            </div>
+                        
+                            <div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/21.jpg" data-sub-html=".caption"
+                                 data-aos="zoom-in-up">
+                                <img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif"
+                                     data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/21.jpg" referrerpolicy="no-referrer"
+                                     class="img-shadow img-margin unload">
+                            </div>
+                        
+                            <div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/22.jpg" data-sub-html=".caption"
+                                 data-aos="zoom-in-up">
+                                <img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif"
+                                     data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/22.jpg" referrerpolicy="no-referrer"
+                                     class="img-shadow img-margin unload">
+                            </div>
+                        
+                            <div class="grid-item img-item" data-src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/23.jpg" data-sub-html=".caption"
+                                 data-aos="zoom-in-up">
+                                <img src="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/images/loading-bottle.gif"
+                                     data-original="https://cdn.jsdelivr.net/gh/hvnobug/assets/blog/album/angel/23.jpg" referrerpolicy="no-referrer"
+                                     class="img-shadow img-margin unload">
+                            </div>
+                        
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+</main>
+
+
+    <div class="container paging">
+        <div class="row">
+            <div class="col s6 m4 l4">
+                <a class="left btn-floating btn-large disabled"
+                   
+                >
+                    <i class="fas fa-angle-left"></i>
+                </a>
+            </div>
+            <div class="page-info col m4 l4 hide-on-small-only">
+                <div class="center-align b-text-gray">1 / 2</div>
+            </div>
+            <div class="col s6 m4 l4">
+                <a class="right btn-floating btn-large waves-effect waves-light bg-color"
+                   href="/album/angel/2/"
+                        
+                >
+                    <i class="fas fa-angle-right"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="page-footer bg-color">
+    <div class="container row center-align">
+        <div class="col s12 m8 l8 copy-right">
+            Copyright&nbsp;&copy;
+            <span id="year">年份</span>
+            <a href="https://yafine-blog.cn" target="_blank">YangAir</a>
+            <br>
+            
+            &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
+                class="white-color">30.2k</span>&nbsp;字
+            
+            
+            
+            
+            
+            
+            <span id="busuanzi_container_site_pv">
+                |&nbsp;<i class="far fa-eye"></i>&nbsp;总访问量:&nbsp;<span id="busuanzi_value_site_pv"
+                    class="white-color"></span>&nbsp;次
+            </span>
+            
+            
+            <span id="busuanzi_container_site_uv">
+                |&nbsp;<i class="fas fa-users"></i>&nbsp;总访问人数:&nbsp;<span id="busuanzi_value_site_uv"
+                    class="white-color"></span>&nbsp;人
+            </span>
+            
+            <br>
+            
+            <span id="sitetime">载入运行时间...</span>
+            <script>
+                function siteTime() {
+                    window.setTimeout("siteTime()", 1000);
+                    var seconds = 1000;
+                    var minutes = seconds * 60;
+                    var hours = minutes * 60;
+                    var days = hours * 24;
+                    var years = days * 365;
+                    var today = new Date();
+                    var startYear = "2019";
+                    var startMonth = "10";
+                    var startDate = "28";
+                    var startHour = "16";
+                    var startMinute = "0";
+                    var startSecond = "0";
+                    var todayYear = today.getFullYear();
+                    var todayMonth = today.getMonth() + 1;
+                    var todayDate = today.getDate();
+                    var todayHour = today.getHours();
+                    var todayMinute = today.getMinutes();
+                    var todaySecond = today.getSeconds();
+                    var t1 = Date.UTC(startYear, startMonth, startDate, startHour, startMinute, startSecond);
+                    var t2 = Date.UTC(todayYear, todayMonth, todayDate, todayHour, todayMinute, todaySecond);
+                    var diff = t2 - t1;
+                    var diffYears = Math.floor(diff / years);
+                    var diffDays = Math.floor((diff / days) - diffYears * 365);
+                    var diffHours = Math.floor((diff - (diffYears * 365 + diffDays) * days) / hours);
+                    var diffMinutes = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours) /
+                        minutes);
+                    var diffSeconds = Math.floor((diff - (diffYears * 365 + diffDays) * days - diffHours * hours -
+                        diffMinutes * minutes) / seconds);
+                    if (startYear == todayYear) {
+                        document.getElementById("year").innerHTML = todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffDays + " 天 " + diffHours +
+                            " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    } else {
+                        document.getElementById("year").innerHTML = startYear + " - " + todayYear;
+                        document.getElementById("sitetime").innerHTML = "本站已安全运行 " + diffYears + " 年 " + diffDays +
+                            " 天 " + diffHours + " 小时 " + diffMinutes + " 分钟 " + diffSeconds + " 秒";
+                    }
+                }
+                setInterval(siteTime, 1000);
+            </script>
+            
+            <br>
+            
+        </div>
+        <div class="col s12 m4 l4 social-link social-statis">
+    <a href="https://github.com/Yafine" class="tooltipped" target="_blank" data-tooltip="访问我的GitHub" data-position="top" data-delay="50">
+        <i class="fab fa-github"></i>
+    </a>
+
+
+
+    <a href="mailto:mailto:13213072761@163.com" class="tooltipped" target="_blank" data-tooltip="邮件联系我" data-position="top" data-delay="50">
+        <i class="fas fa-envelope-open"></i>
+    </a>
+
+
+
+
+
+
+
+    <a href="http://wpa.qq.com/msgrd?v=3&uin=10358001458&site=qq&menu=yes" class="tooltipped" target="_blank" data-tooltip="QQ联系我: 1035800145" data-position="top" data-delay="50">
+        <i class="fab fa-qq"></i>
+    </a>
+
+
+
+    <a href="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/wechat.png" class="tooltipped" target="_blank" data-tooltip="微信联系我: https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/wechat.png" data-position="top" data-delay="50">
+        <i class="fab fa-weixin"></i>
+    </a>
+
+
+
+
+
+
+
+
+
+    <a href="https://blog.csdn.net/victoryxa" class="tooltipped" target="_blank" data-tooltip="关注我的CSDN: https://blog.csdn.net/victoryxa" data-position="top" data-delay="50">
+        <i class="fab fa-csdn">C</i>
+    </a>
+
+
+
+
+
+
+
+    <a href="/atom.xml" class="tooltipped" target="_blank" data-tooltip="RSS 订阅" data-position="top" data-delay="50">
+        <i class="fas fa-rss"></i>
+    </a>
+
+</div>
+    </div>
+</footer>
+
+<div class="progress-bar"></div>
+
+
+    <!-- 搜索遮罩框 -->
+<div id="searchModal" class="modal">
+    <div class="modal-content">
+        <div class="search-header">
+            <span class="title"><i class="fas fa-search"></i>&nbsp;&nbsp;搜索</span>
+            <input type="search" id="searchInput" name="s" placeholder="请输入搜索的关键字"
+                   class="search-input">
+        </div>
+        <div id="searchResult"></div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/js/search.js"></script>
+<script type="text/javascript">
+$(function () {
+    searchFunc("/" + "search.xml", 'searchInput', 'searchResult');
+});
+</script>
+    <!-- 回到顶部按钮 -->
+<div id="backTop" class="top-scroll">
+    <a class="btn-floating btn-large waves-effect waves-light" href="#!">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+</div>
+
+
+    <script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/libs/materialize/materialize.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/libs/masonry/masonry.pkgd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/libs/aos/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/libs/scrollprogress/scrollProgress.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/libs/lightGallery/js/lightgallery-all.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.2/source/js/matery.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=214014838"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', '214014838');
+</script>
+
+
+    <!-- Baidu Analytics -->
+
+<script>
+    var _hmt = _hmt || [];
+    (function () {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?12c4949ccded8725d72796f9cafb6249";
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(hm, s);
+    })();
+</script>
+
+    <!-- Baidu Push -->
+
+<script>
+    (function () {
+        var bp = document.createElement('script');
+        var curProtocol = window.location.protocol.split(':')[0];
+        if (curProtocol === 'https') {
+            bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';
+        } else {
+            bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+        }
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(bp, s);
+    })();
+</script>
+
+    
+    <script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/libs/others/clicklove.js" async="async"></script>
+    
+    
+    <script async src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/libs/others/busuanzi.pure.mini.js"></script>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/libs/background/ribbon-dynamic.js" async="async"></script>
+    
+    
+    
+    <script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/libs/instantpage/instantpage.js" type="module"></script>
+    
+    <!-- <script id="xplayer" src="https://player.52aicy.cn/Static/player/player.js" key="5dde6a5e722e4" m="1"></script> -->
+    <!-- Crisp聊天 -->
+    <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="6a511ac1-4992-4e21-8b54-19e2695fc8d8";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+       
+     <!-- <script type="text/javascript">
+        //只在桌面版网页启用特效
+        var windowWidth = $(window).width();
+        if (windowWidth > 768) {
+            document.write('<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/Yafine/cdn@1.7/js/yinghua.js"><\/script>');
+        }
+    </script> -->
+     <!-- <script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@1.7/js/yinghua.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.2/source/js/FunnyTitle.js"></script>                                               
+    <script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.1/source/js/click_show_text.js"></script> 
+<script>!function(e){var r=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function t(){for(var c=0;c<r.length;c++)t=r[c],void 0,0<=(n=t.getBoundingClientRect()).top&&0<=n.left&&n.top<=(e.innerHeight+240||document.documentElement.clientHeight+240)&&function(){var t,n,e,i,o=r[c];t=o,n=function(){r=r.filter(function(t){return o!==t})},e=new Image,i=t.getAttribute("data-original"),e.onload=function(){t.src=i,n&&n()},e.src=i}();var t,n}t(),e.addEventListener("scroll",function(){!function(t,n){clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(n)},500)}(t,e)})}(this);</script>
+        <script src="//cdn.jsdelivr.net/npm/js-base64/base64.min.js"></script>
+        <script>
+        $('a').each(function() {
           const $this = $(this);
           const href = $this.attr('href');
           if (href && href.match('^((http|https|thunder|qqdl|ed2k|Flashget|qbrowser|ftp|rtsp|mms)://)')) {
@@ -13,4 +948,7 @@
                 }
             }
           }
-        });</script><script>!function(e){var c=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function i(){for(var r=0;r<c.length;r++)0<=(t=c[r].getBoundingClientRect()).top&&0<=t.left&&t.top<=(e.innerHeight+240||document.documentElement.clientHeight+240)&&function(){var t,n,e,i,o=c[r];t=o,n=function(){c=c.filter(function(t){return o!==t})},e=new Image,i=t.getAttribute("data-original"),e.onload=function(){t.src=i,n()},e.src=i}();var t}i(),e.addEventListener("scroll",function(){var t,n;t=i,n=e,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(n)},500)})}(this)</script></body></html>
+        });
+        </script></body>
+
+</html>
