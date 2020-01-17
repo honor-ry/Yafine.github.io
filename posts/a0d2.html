@@ -2,7 +2,7 @@
 <html lang="zh-CN">
 
 
-<head>
+<head><link rel=manifest href=/manifest.json>
     <meta charset="utf-8">
     <meta name="keywords" content="一千行MySQL学习笔记, HTML,CSS,JavaScript,JQuery,React,Vue.js,YangAir,Yafine,blog,个人博客,程序员,前端等">
     <meta name="description" content="启动创建Windows服务/* Windows服务 */
@@ -17,7 +17,9 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-
+    <link rel="apple-touch-icon" href="">
+    <meta name="theme-color" content="white"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="google-site-verification" content="_Yxe-z9eMYY_SRPAcIzAbYH5As14vyJJcWZRdsz82oo" />
     <meta name="baidu-site-verification" content="ukPosCpWvc" />
     <meta name="sogou_site_verification" content="gPRA4fogql"/>
@@ -35,7 +37,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.6/source/css/my.css">
     <script src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.6/source/libs/jquery/jquery.min.js"></script>
     
-
+   
 <link rel="stylesheet" href="/css/prism-hopscotch.css" type="text/css">
 <link rel="stylesheet" href="/css/prism-line-numbers.css" type="text/css"></head>
 
@@ -2382,7 +2384,12 @@ $(function () {
     </script>
     <script type='text/javascript' charset='UTF-8' src='https://www.xianliao.me/embed.js'></script>
                                                 
-
+<script>if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js?t=1579248003988')
+    .then(function () {console.log('ServiceWorker Register Successfully.')})
+    .catch(function (e) {console.error(e)});
+}
+</script>
         <script src="//cdn.jsdelivr.net/npm/js-base64/base64.min.js"></script>
         <script>
         $('a').each(function() {
