@@ -412,11 +412,190 @@
     </ul>
 </div>
 
-        </div>
-
+        </div>                                                             
         
     </nav>
-
+<style>
+    /*添加灯笼 2020-01-21*/
+/*.deng-box {*/
+/*    position: fixed;*/
+/*    top: -40px;*/
+/*    right: -20px;*/
+/*    z-index: 999;*/
+/*}*/
+ 
+ 
+.deng-box {
+    position: fixed;
+    top: 20px;
+    z-index: 999;
+}
+.deng-box1 {
+    position: fixed;
+    top: 20px;
+    right: 10px;
+    z-index: 999;
+}
+ 
+.deng-box1 .deng {
+    position: relative;
+    width: 120px;
+    height: 90px;
+    margin: 50px;
+    background: #d8000f;
+    background: rgba(216, 0, 15, 0.8);
+    border-radius: 50% 50%;
+    -webkit-transform-origin: 50% -100px;
+    -webkit-animation: swing 5s infinite ease-in-out;
+    box-shadow: -5px 5px 30px 4px rgba(252, 144, 61, 1);
+}
+ 
+.deng {
+    position: relative;
+    width: 120px;
+    height: 90px;
+    margin: 50px;
+    background: #d8000f;
+    background: rgba(216, 0, 15, 0.8);
+    border-radius: 50% 50%;
+    -webkit-transform-origin: 50% -100px;
+    -webkit-animation: swing 3s infinite ease-in-out;
+    box-shadow: -5px 5px 50px 4px rgba(250, 108, 0, 1);
+}
+ 
+.deng-a {
+    width: 100px;
+    height: 90px;
+    background: #d8000f;
+    background: rgba(216, 0, 15, 0.1);
+    margin: 12px 8px 8px 8px;
+    border-radius: 50% 50%;
+    border: 2px solid #dc8f03;
+}
+ 
+.deng-b {
+    width: 45px;
+    height: 90px;
+    background: #d8000f;
+    background: rgba(216, 0, 15, 0.1);
+    margin: -4px 8px 8px 26px;
+    border-radius: 50% 50%;
+    border: 2px solid #dc8f03;
+}
+ 
+.xian {
+    position: absolute;
+    top: -65px;
+    left: 60px;
+    width: 2px;
+    height: 65px;
+    background: #dc8f03;
+}
+ 
+.shui-a {
+    position: relative;
+    width: 5px;
+    height: 20px;
+    margin: -5px 0 0 59px;
+    -webkit-animation: swing 4s infinite ease-in-out;
+    -webkit-transform-origin: 50% -45px;
+    background: #ffa500;
+    border-radius: 0 0 5px 5px;
+}
+ 
+.shui-b {
+    position: absolute;
+    top: 14px;
+    left: -2px;
+    width: 10px;
+    height: 10px;
+    background: #dc8f03;
+    border-radius: 50%;
+}
+ 
+.shui-c {
+    position: absolute;
+    top: 18px;
+    left: -2px;
+    width: 10px;
+    height: 35px;
+    background: #ffa500;
+    border-radius: 0 0 0 5px;
+}
+ 
+.deng:before {
+    position: absolute;
+    top: -7px;
+    left: 29px;
+    height: 12px;
+    width: 60px;
+    content: " ";
+    display: block;
+    z-index: 999;
+    border-radius: 5px 5px 0 0;
+    border: solid 1px #dc8f03;
+    background: #ffa500;
+    background: linear-gradient(to right, #dc8f03, #ffa500, #dc8f03, #ffa500, #dc8f03);
+}
+ 
+.deng:after {
+    position: absolute;
+    bottom: -7px;
+    left: 10px;
+    height: 12px;
+    width: 60px;
+    content: " ";
+    display: block;
+    margin-left: 20px;
+    border-radius: 0 0 5px 5px;
+    border: solid 1px #dc8f03;
+    background: #ffa500;
+    background: linear-gradient(to right, #dc8f03, #ffa500, #dc8f03, #ffa500, #dc8f03);
+}
+ 
+.deng-t {
+    font-family: 华文行楷,Arial,Lucida Grande,Tahoma,sans-serif;
+    font-size: 1rem;
+    color: #dc8f03;
+    font-weight: bold;
+    line-height: 85px;
+    text-align: center;
+}
+ 
+.night .deng-t, 
+.night .deng-box, 
+.night .deng-box1 {
+    background: transparent !important;
+}
+ 
+@-moz-keyframes swing {
+    0% {
+        -moz-transform: rotate(-10deg)
+    }
+ 
+    50% {
+        -moz-transform: rotate(10deg)
+    }
+ 
+    100% {
+        -moz-transform: rotate(-10deg)
+    }
+}
+ 
+@-webkit-keyframes swing {
+    0% {
+        -webkit-transform: rotate(-10deg)
+    }
+ 
+    50% {
+        -webkit-transform: rotate(10deg)
+    }
+ 
+    100% {
+        -webkit-transform: rotate(-10deg)
+    }
+}
+</style>
 </header>
 
     
@@ -2140,7 +2319,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">49.9k</span>&nbsp;字
+                class="white-color">49.7k</span>&nbsp;字
             
             
             
@@ -2266,7 +2445,27 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
 </footer>
 
 <div class="progress-bar"></div>
-
+<!-- 灯笼1 -->
+<div class="deng-box">
+    <div class="deng">
+        <div class="xian"></div>
+        <div class="deng-a">
+            <div class="deng-b"><div class="deng-t">春节</div></div>
+        </div>
+        <div class="shui shui-a"><div class="shui-c"></div><div class="shui-b"></div></div>
+    </div>
+</div>
+ 
+<!-- 灯笼2 -->
+<div class="deng-box1">
+    <div class="deng">
+        <div class="xian"></div>
+        <div class="deng-a">
+            <div class="deng-b"><div class="deng-t">快乐</div></div>
+        </div>
+        <div class="shui shui-a"><div class="shui-c"></div><div class="shui-b"></div></div>
+    </div>
+</div>
 
     <!-- 搜索遮罩框 -->
 <div id="searchModal" class="modal">
@@ -2383,13 +2582,13 @@ $(function () {
         var xlm_url='https://www.xianliao.me/';
     </script>
     <script type='text/javascript' charset='UTF-8' src='https://www.xianliao.me/embed.js'></script>
-                                                
+    <script id="_wau6go">var _wau = _wau || []; _wau.push(["dynamic", "435n9yi1wy", "6go", "3c78d8ffffff", "small"]);</script><script async src="//waust.at/d.js"></script>
 <script>if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js?t=1579433792043')
+  navigator.serviceWorker.register('/sw.js?t=1579781421159')
     .then(function () {console.log('ServiceWorker Register Successfully.')})
     .catch(function (e) {console.error(e)});
 }
-</script><script>!function(e){var c=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function i(){for(var r=0;r<c.length;r++)t=c[r],0<=(n=t.getBoundingClientRect()).top&&0<=n.left&&n.top<=(e.innerHeight||document.documentElement.clientHeight)&&function(){var t,n,e,i,o=c[r];t=o,n=function(){c=c.filter(function(t){return o!==t})},e=new Image,i=t.getAttribute("data-original"),e.onload=function(){t.src=i,n&&n()},e.src=i}();var t,n}i(),e.addEventListener("scroll",function(){var t,n;t=i,n=e,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(n)},500)})}(this);</script>
+</script>
         <script src="//cdn.jsdelivr.net/npm/js-base64/base64.min.js"></script>
         <script>
         $('a').each(function() {
@@ -2408,6 +2607,6 @@ $(function () {
             }
           }
         });
-        </script></body>
+        </script><script>!function(e){var c=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function i(){for(var r=0;r<c.length;r++)t=c[r],0<=(n=t.getBoundingClientRect()).top&&0<=n.left&&n.top<=(e.innerHeight||document.documentElement.clientHeight)&&function(){var t,n,e,i,o=c[r];t=o,n=function(){c=c.filter(function(t){return o!==t})},e=new Image,i=t.getAttribute("data-original"),e.onload=function(){t.src=i,n&&n()},e.src=i}();var t,n}i(),e.addEventListener("scroll",function(){var t,n;t=i,n=e,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(n)},500)})}(this);</script></body>
 
 </html>
