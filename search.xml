@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Hexo博客部署到码云和Coding</title>
+      <link href="/posts/51fb.html"/>
+      <url>/posts/51fb.html</url>
+      
+        <content type="html"><![CDATA[<p>今天闲来无聊，尝试了Hexo博客部署到码云和<strong>崭新的Coding平台</strong>，我之前试过将博客部署到Coding上，成功了，但Coding平台进行大更新，虽说我的博客地址之前还能用，但有点乱，就将之前的仓库全部删除，重新部署下。就写下这篇教程，希望能够帮到那些搭建博客的小伙伴们，如果教程有错，希望大家能够指出来，我会及时修改的，谢谢大家的支持！</p><h1 id="部署到Coding平台"><a href="#部署到Coding平台" class="headerlink" title="部署到Coding平台"></a>部署到Coding平台</h1><ol><li>首先去<a href="https://e.coding.net/signup?from=dev-tencent" target="_blank" rel="noopener">官网</a>进行注册，也可以用第三方微信进行注册。</li></ol><img src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.6/source/loading4.gif" data-original="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/2020-01-28_15-00-14.png"><ol start="2"><li>注册完成之后就会进入主页面，然后创建新项目，如下图所示：</li></ol><p><img src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.6/source/loading4.gif" data-original="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/2020-01-28_13-31-48.png" alt=""></p><ul><li>代码托管项目：用于托管代码仓库，支持多个仓库，并可选择开启 CI/CD 和制品库功能</li><li>项目管理项目：支持 Scrum 敏捷管理和传统任务管理项目，包含需求、任务和缺陷</li><li>DevOps项目：包含项目管理、代码托管、CI/CD 和制品库等功能，提供完整的研发流程</li></ul><p>在这里我们选择第三个，DevOps项目，这个含有构建与部署功能。 </p><p>选择第三个DevOps项目后，会出现下面的页面：</p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.6/source/loading4.gif" data-original="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/2020-01-28_13-37-16.png" alt=""></p><blockquote><p>项目名称：与你的用户名相同，用户名就是你的团队名</p></blockquote><p><img src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.6/source/loading4.gif" data-original="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20200128160203.png" alt=""></p><p>团队域名可以修改一次，会显示一个修改笔的图标，因为我修改过了，所以就没显示。</p><ol start="3"><li>添加部署公钥</li></ol><p>在个人设置里面，点击<strong>SSH公钥</strong>，点击<strong>新增公钥</strong>。</p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.6/source/loading4.gif" data-original="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/2020-01-28_13-39-53.png" alt=""></p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.6/source/loading4.gif" data-original="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/2020-01-28_13-42-49.png" alt=""></p><ul><li>公钥名称：自定义</li><li>公钥内容：可以使用之前连接GitHub的公钥，在本地的<code>C:\Users\你的电脑账户名\.ssh</code>，我的为<code>C:\Users\Administrator\.ssh</code>，用文本编辑器打开<code>id_rsa.pub</code>，将里面的内容复制粘贴到此处即可。</li><li>公钥有效期：选择永久有效</li></ul><p>点击添加，然后回弹出一个密码框，输入你的用户密码验证一下即可，然后打开控制台输入<code>ssh -T git@git.coding.net</code>，第一次建立连接会要求信任主机，输入相关的用户名或者密码，在控制台输入验证，验证成功即可。</p><p>然后复制你的项目地址，粘贴到配置文件，如图所示：</p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.6/source/loading4.gif" data-original="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20200128161950.png" alt=""></p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.6/source/loading4.gif" data-original="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20200128162104.png" alt=""></p><p>然后再执行<code>hexo clean &amp;&amp; hexo g -d</code>部署到coding，紧接着，打开你的coding项目管理页，进行静态网站构建，页面如下，按图中步骤操作即可：</p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.6/source/loading4.gif" data-original="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/2020-01-28_13-50-24.png" alt=""></p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.6/source/loading4.gif" data-original="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/2020-01-28_13-50-41.png" alt=""></p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.6/source/loading4.gif" data-original="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/2020-01-28_13-51-34.png" alt=""></p><p>点击保存，就会进入下一个页面：</p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.6/source/loading4.gif" data-original="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/2020-01-28_13-52-20.png" alt=""></p><p>点击立即部署，当出现如下的页面效果，就说明部署成功。</p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.6/source/loading4.gif" data-original="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/2020-01-28_13-53-10.png" alt=""></p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.6/source/loading4.gif" data-original="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/2020-01-28_13-54-27.png" alt=""></p><p>点击图中的访问地址就可以查看效果了。</p><ol start="4"><li>绑定域名</li></ol><p>在绑定域名之前首先需要将访问地址添加到DNS域名解析之中。</p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.6/source/loading4.gif" data-original="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20200128164410.png" alt=""></p><p>我的添加记录为：</p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.6/source/loading4.gif" data-original="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20200128164514.png" alt=""></p><p>线路类型我选择的是<strong>境内</strong>，也就是说，当境内有人访问时，会通过国内的Coding平台。</p><p>然后点击上一张图所显示的<strong>设置</strong>按钮，进入静态网站设置页面：</p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.6/source/loading4.gif" data-original="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/2020-01-28_13-57-11.png" alt=""></p><p>在绑定新域名下的输入框，输入你的域名，然后点击绑定即可。</p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.6/source/loading4.gif" data-original="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20200128164204.png" alt=""></p><h1 id="部署到码云"><a href="#部署到码云" class="headerlink" title="部署到码云"></a>部署到码云</h1><ol><li>同样，先去<a href="https://gitee.com/" target="_blank" rel="noopener">码云官网</a>进行注册，注册完成后，会跳转到如下的页面：</li></ol><p><img src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.6/source/loading4.gif" data-original="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/2020-01-28_14-07-46.png" alt=""></p><ol start="2"><li>开始新建仓库，如上一张图的操作步骤，会出现如下效果：</li></ol><p><img src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.6/source/loading4.gif" data-original="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/2020-01-28_14-10-39.png" alt=""></p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.6/source/loading4.gif" data-original="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20200128165608.png" alt=""></p><blockquote><p><font style="font-size:16px;color:red;">注意：</font>仓库名称必须要和用户名一样，否则最后部署出来会出现无样式的效果或者其他不正常的显示。</p></blockquote><ol start="3"><li>添加公钥</li></ol><p>点击管理—&gt;部署公钥管理—&gt;新增部署公钥，添加公钥的内容也是之前部署到GitHub上添加的公钥</p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.6/source/loading4.gif" data-original="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20200128165859.png" alt=""></p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.6/source/loading4.gif" data-original="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/2020-01-28_14-12-50.png" alt=""></p><ol start="4"><li>部署到码云</li></ol><p>将项目地址复制粘贴到配置文件上，如下图所示：</p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.6/source/loading4.gif" data-original="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/2020-01-28_14-13-57.png" alt=""></p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.6/source/loading4.gif" data-original="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20200128162104.png" alt=""></p><p>然后执行<code>hexo clean &amp;&amp; hexo g -d</code>，部署成功后，点击服务—&gt;Gitee Pages，进入下面的页面：</p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.6/source/loading4.gif" data-original="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20200128170423.png" alt=""></p><p><img src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.6/source/loading4.gif" data-original="https://cdn.jsdelivr.net/gh/Yafine/Yafine-imgs/images/20200128170740.png" alt=""></p><p>第一次设置Gitee Pages的效果不是我图中所显示的，最后的设置效果就是这样的，当显示图中红色文字<font color="red">已开启Gitee PAges服务，网站地址为：</font><font color="blue"><a href="https://yafine66.gitee.io" target="_blank" rel="noopener">https://yafine66.gitee.io</a></font>即部署成功，点击网址，查看效果。</p><h1 id=""><a href="#" class="headerlink" title=""></a></h1><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> Hexo博客 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Markdown语法小手册</title>
       <link href="/posts/bf17.html"/>
       <url>/posts/bf17.html</url>
@@ -133,7 +158,7 @@
     
     
     <entry>
-      <title>hexo+github搭建博客(超级详细版，精细入微)</title>
+      <title>Hexo+github搭建博客(超级详细版，精细入微)</title>
       <link href="/posts/4ab2.html"/>
       <url>/posts/4ab2.html</url>
       
@@ -142,14 +167,14 @@
       
       <categories>
           
-          <category> hexo博客 </category>
+          <category> Hexo博客 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> hexo </tag>
+            <tag> Hexo </tag>
             
         </tags>
       
