@@ -2134,7 +2134,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             <br>
             
             &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                class="white-color">50.7k</span>&nbsp;字
+                class="white-color">52.4k</span>&nbsp;字
             
             
             
@@ -2367,10 +2367,10 @@ $(function () {
     })();
     </script>
     <!-- 闲聊么 -->
-    <script>
+    <!-- <script>
         var xlm_wid='15300';
         var xlm_url='https://www.xianliao.me/';
-    </script>
+    </script> -->
     <script type='text/javascript' charset='UTF-8' src='https://www.xianliao.me/embed.js'></script>
     <!-- 中国天气 -->
     <!-- Yafine -->
@@ -2381,13 +2381,30 @@ $(function () {
     <!-- 樱花 -->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/Yafine/cdn@2.8/source/js/sakura.js"></script>
     <!-- 一言API -->
-    <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+    <!-- 现代写法，推荐 -->
+<!-- 兼容低版本浏览器 (包括 IE)，可移除 -->
+<script src="https://cdn.jsdelivr.net/npm/bluebird@3/js/browser/bluebird.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/whatwg-fetch@2.0.3/fetch.min.js"></script>
+<!--End-->
+<script>
+  fetch('https://v1.hitokoto.cn')
+    .then(function (res){
+      return res.json();
+    })
+    .then(function (data) {
+      var hitokoto = document.getElementById('hitokoto');
+      hitokoto.innerText = data.hitokoto + ' ——【' + data.from + '】';
+    })
+    .catch(function (err) {
+      console.error(err);
+    })
+</script>
 <script>if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/sw.js?t=1580874433695')
+  navigator.serviceWorker.register('/sw.js?t=1580888529798')
     .then(function () {console.log('ServiceWorker Register Successfully.')})
     .catch(function (e) {console.error(e)});
 }
-</script><script>!function(e){var c=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function i(){for(var r=0;r<c.length;r++)t=c[r],0<=(n=t.getBoundingClientRect()).top&&0<=n.left&&n.top<=(e.innerHeight||document.documentElement.clientHeight)&&function(){var t,n,e,i,o=c[r];t=o,n=function(){c=c.filter(function(t){return o!==t})},e=new Image,i=t.getAttribute("data-original"),e.onload=function(){t.src=i,n&&n()},e.src=i}();var t,n}i(),e.addEventListener("scroll",function(){var t,n;t=i,n=e,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(n)},500)})}(this);</script>
+</script>
         <script src="//cdn.jsdelivr.net/npm/js-base64/base64.min.js"></script>
         <script>
         $('a').each(function() {
@@ -2406,6 +2423,6 @@ $(function () {
             }
           }
         });
-        </script></body>
+        </script><script>!function(e){var c=Array.prototype.slice.call(document.querySelectorAll("img[data-original]"));function i(){for(var r=0;r<c.length;r++)t=c[r],0<=(n=t.getBoundingClientRect()).top&&0<=n.left&&n.top<=(e.innerHeight||document.documentElement.clientHeight)&&function(){var t,n,e,i,o=c[r];t=o,n=function(){c=c.filter(function(t){return o!==t})},e=new Image,i=t.getAttribute("data-original"),e.onload=function(){t.src=i,n&&n()},e.src=i}();var t,n}i(),e.addEventListener("scroll",function(){var t,n;t=i,n=e,clearTimeout(t.tId),t.tId=setTimeout(function(){t.call(n)},500)})}(this);</script></body>
 
 </html>
