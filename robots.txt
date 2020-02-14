@@ -8,11 +8,12 @@ Allow: /books/
 Allow: /movies/
 Allow: /posts/
 Allow: /tags/
+Allow: /box/
 Disallow: /js/
 Disallow: /css/
-Disallow: /contact/
+Allow: /contact/
 Disallow: /fonts/
-Disallow: /friends/
+Allow: /friends/
 Disallow: /libs/
 Disallow: /medias/
 Disallow: /page/
