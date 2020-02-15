@@ -9,6 +9,7 @@ Allow: /movies/
 Allow: /posts/
 Allow: /tags/
 Allow: /box/
+Allow: /sponsor/
 Disallow: /js/
 Disallow: /css/
 Allow: /contact/
