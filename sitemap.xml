@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://yafine-blog.cn/friends/index.html</loc>
+    
+    <lastmod>2020-02-16T10:02:51.275Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://yafine-blog.cn/posts/4ab2.html</loc>
     
     <lastmod>2020-02-16T05:49:45.727Z</lastmod>
@@ -117,13 +124,6 @@
     <loc>https://yafine-blog.cn/sponsor/index.html</loc>
     
     <lastmod>2020-02-15T09:51:08.221Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://yafine-blog.cn/friends/index.html</loc>
-    
-    <lastmod>2020-02-07T12:47:26.165Z</lastmod>
     
   </url>
   
