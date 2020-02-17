@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://yafine-blog.cn/friends/index.html</loc>
+    <loc>https://yafine-blog.cn/posts/4ab2.html</loc>
     
-    <lastmod>2020-02-16T10:20:04.655Z</lastmod>
+    <lastmod>2020-02-17T03:49:39.923Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://yafine-blog.cn/posts/4ab2.html</loc>
+    <loc>https://yafine-blog.cn/sponsor/index.html</loc>
     
-    <lastmod>2020-02-16T05:49:45.727Z</lastmod>
+    <lastmod>2020-02-16T11:50:52.991Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://yafine-blog.cn/friends/index.html</loc>
+    
+    <lastmod>2020-02-16T10:20:04.655Z</lastmod>
     
   </url>
   
@@ -117,13 +124,6 @@
     <loc>https://yafine-blog.cn/about/index.html</loc>
     
     <lastmod>2020-02-15T10:23:56.668Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://yafine-blog.cn/sponsor/index.html</loc>
-    
-    <lastmod>2020-02-15T09:51:08.221Z</lastmod>
     
   </url>
   
