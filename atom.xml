@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>过客~励む</title>
+  
+  <subtitle>励む</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://yafine-blog.cn/"/>
+  <updated>2020-02-23T10:37:48.614Z</updated>
+  <id>https://yafine-blog.cn/</id>
+  
+  <author>
+    <name>YangAir</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>修改matery原有主题相册</title>
+    <link href="https://yafine-blog.cn/posts/3b98.html"/>
+    <id>https://yafine-blog.cn/posts/3b98.html</id>
+    <published>2020-02-21T14:41:29.000Z</published>
+    <updated>2020-02-23T10:37:48.614Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;开始搭建&quot;&gt;&lt;a href=&quot;#开始搭建&quot; class=&quot;headerlink&quot; title=&quot;开始搭建&quot;&gt;&lt;/a&gt;开始搭建&lt;/h2&gt;&lt;p&gt;首先看一看matery主题原有的相册效果吧，在个人页面内：&lt;/p&gt;
+&lt;p&gt;&lt;img
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用PicGo+Github搭建免费图床</title>
+    <link href="https://yafine-blog.cn/posts/eb3a.html"/>
+    <id>https://yafine-blog.cn/posts/eb3a.html</id>
+    <published>2020-02-17T12:33:38.000Z</published>
+    <updated>2020-02-17T12:37:21.547Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;本文讲解的图床是基于Github的，采用jsdelivr
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
+    
+      <category term="图床搭建" scheme="https://yafine-blog.cn/tags/%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>使用Jsdelivr CDN加速博客访问速度</title>
+    <link href="https://yafine-blog.cn/posts/ee35.html"/>
+    <id>https://yafine-blog.cn/posts/ee35.html</id>
+    <published>2020-02-17T12:22:48.000Z</published>
+    <updated>2020-02-17T12:28:56.074Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;CDN加速&quot;&gt;&lt;a href=&quot;#CDN加速&quot; class=&quot;headerlink&quot; title=&quot;CDN加速&quot;&gt;&lt;/a&gt;CDN加速&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;CDN的全称是Content Delivery
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
+    
+      <category term="cdn" scheme="https://yafine-blog.cn/tags/cdn/"/>
+    
+      <category term="jsdelivr" scheme="https://yafine-blog.cn/tags/jsdelivr/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Matery主题自定义字体</title>
+    <link href="https://yafine-blog.cn/posts/49fb.html"/>
+    <id>https://yafine-blog.cn/posts/49fb.html</id>
+    <published>2020-02-17T10:18:56.000Z</published>
+    <updated>2020-02-17T12:21:12.827Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;全局字体自定义&quot;&gt;&lt;a href=&quot;#全局字体自定义&quot; class=&quot;headerlink&quot; title=&quot;全局字体自定义&quot;&gt;&lt;/a&gt;全局字体自定义&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;博客站点根目录下的 &lt;code&gt;source&lt;/code&gt; 文件夹内创建一个名为
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo添加PWA支持</title>
+    <link href="https://yafine-blog.cn/posts/d0e9.html"/>
+    <id>https://yafine-blog.cn/posts/d0e9.html</id>
+    <published>2020-02-06T08:02:38.000Z</published>
+    <updated>2020-02-15T12:10:23.997Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;PWA（Progressive Web App）是一种理念，使用多种技术来增强web app的功能，可以让网站的体验变得更好，能够模拟一些原生功能，比如通知推送。在移动端利用标准化框架，让网页应用呈现和原生应用相似的体验。 —来自&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo博客" scheme="https://yafine-blog.cn/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
+    
+      <category term="PWA" scheme="https://yafine-blog.cn/tags/PWA/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo博客添加一言</title>
+    <link href="https://yafine-blog.cn/posts/153b.html"/>
+    <id>https://yafine-blog.cn/posts/153b.html</id>
+    <published>2020-02-05T05:53:01.000Z</published>
+    <updated>2020-02-15T12:10:16.033Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h2&gt;&lt;p&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo博客" scheme="https://yafine-blog.cn/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>npm、cnpm、yarn三剑客</title>
+    <link href="https://yafine-blog.cn/posts/8094.html"/>
+    <id>https://yafine-blog.cn/posts/8094.html</id>
+    <published>2020-02-02T06:11:12.000Z</published>
+    <updated>2020-02-17T12:24:39.865Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;npm，cnpm，yarn这三个或许使用Hexo，Hugo，vuepress等静态博客搭建的小伙伴们来说，会经常遇见，会使用它们进行插件，依赖包等的安装、卸载与更新，如果你是前端开发者或者是准备从事前端的话，你会经常与它们三个打交道，下面简单的说说它们三剑客吧！&lt;/p&gt;
+&lt;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Node.js" scheme="https://yafine-blog.cn/categories/Node-js/"/>
+    
+    
+      <category term="Node.js" scheme="https://yafine-blog.cn/tags/Node-js/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo博客部署到码云和Coding</title>
+    <link href="https://yafine-blog.cn/posts/51fb.html"/>
+    <id>https://yafine-blog.cn/posts/51fb.html</id>
+    <published>2020-01-28T06:19:48.000Z</published>
+    <updated>2020-02-19T13:32:33.952Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;今天闲来无聊，尝试了Hexo博客部署到码云和&lt;strong&gt;崭新的Coding平台&lt;/strong&gt;，我之前试过将博客部署到Coding上，成功了，但Coding平台进行大更新，虽说我的博客地址之前还能用，但有点乱，就将之前的仓库全部删除，重新部署下。就写下这篇教程，希望能
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo博客" scheme="https://yafine-blog.cn/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript的发展史</title>
+    <link href="https://yafine-blog.cn/posts/7fe2.html"/>
+    <id>https://yafine-blog.cn/posts/7fe2.html</id>
+    <published>2019-11-25T15:29:18.000Z</published>
+    <updated>2020-02-21T06:11:17.309Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;声明：&quot;&gt;&lt;a href=&quot;#声明：&quot; class=&quot;headerlink&quot; title=&quot;声明：&quot;&gt;&lt;/a&gt;声明：&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;本文为转载文章，由微信公众号
+        
+      
+    
+    </summary>
+    
+    
+      <category term="转载" scheme="https://yafine-blog.cn/categories/%E8%BD%AC%E8%BD%BD/"/>
+    
+    
+      <category term="JavaScript" scheme="https://yafine-blog.cn/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>实用的在线网站</title>
+    <link href="https://yafine-blog.cn/posts/bc77.html"/>
+    <id>https://yafine-blog.cn/posts/bc77.html</id>
+    <published>2019-11-18T14:04:42.000Z</published>
+    <updated>2020-02-17T08:30:26.343Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;不定时持续更新，如果你有好用的在线网站，欢迎来交流！如果网址失效，请及时联系我，我会及时进行相关的处理，谢谢您的支持！&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;文档类&quot;&gt;&lt;a href=&quot;#文档类&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="实用工具集合" scheme="https://yafine-blog.cn/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7%E9%9B%86%E5%90%88/"/>
+    
+    
+      <category term="效率工具" scheme="https://yafine-blog.cn/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaScript简介</title>
+    <link href="https://yafine-blog.cn/posts/9620.html"/>
+    <id>https://yafine-blog.cn/posts/9620.html</id>
+    <published>2019-11-18T13:50:10.000Z</published>
+    <updated>2020-02-15T12:10:34.995Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;JavaScript是由Netscape公司开发的，最初的名字叫做Mocha，1995年9月改为LiveScript，当时的Java语言很流行，当年的12月，Netscape公司与Sun公司（Java语言的发明者和所有者）达成协议，允许Netscape将LiveScript
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Web前端" scheme="https://yafine-blog.cn/categories/Web%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="笔记" scheme="https://yafine-blog.cn/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="JavaScript" scheme="https://yafine-blog.cn/tags/JavaScript/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo+github搭建博客(超级详细版，精细入微)</title>
+    <link href="https://yafine-blog.cn/posts/4ab2.html"/>
+    <id>https://yafine-blog.cn/posts/4ab2.html</id>
+    <published>2019-11-17T15:12:01.000Z</published>
+    <updated>2020-02-21T07:27:26.479Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;&lt;i class=&quot;fa fa-music&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&amp;nbsp;不妨一边听着一首歌曲，一边看教程！&lt;/strong&gt;&lt;/p&gt;
+&lt;iframe frameborder=&quot;no&quot; width=&quot;320&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo博客" scheme="https://yafine-blog.cn/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CSS3弹性盒子</title>
+    <link href="https://yafine-blog.cn/posts/724a.html"/>
+    <id>https://yafine-blog.cn/posts/724a.html</id>
+    <published>2019-11-05T07:27:54.000Z</published>
+    <updated>2020-02-15T12:10:04.980Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;弹性盒模型的一些知识&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;一、简单介绍&quot;&gt;&lt;a href=&quot;#一、简单介绍&quot; class=&quot;headerlink&quot; title=&quot;一、简单介绍&quot;&gt;&lt;/a&gt;一、简单介绍&lt;/h2&gt;&lt;p&gt;  弹性盒模型（
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Web前端" scheme="https://yafine-blog.cn/categories/Web%E5%89%8D%E7%AB%AF/"/>
+    
+      <category term="CSS3" scheme="https://yafine-blog.cn/categories/Web%E5%89%8D%E7%AB%AF/CSS3/"/>
+    
+      <category term="笔记" scheme="https://yafine-blog.cn/categories/Web%E5%89%8D%E7%AB%AF/CSS3/%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="CSS3" scheme="https://yafine-blog.cn/tags/CSS3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HTML基础知识总结</title>
+    <link href="https://yafine-blog.cn/posts/7aedb564.html"/>
+    <id>https://yafine-blog.cn/posts/7aedb564.html</id>
+    <published>2019-11-01T15:30:10.000Z</published>
+    <updated>2020-02-15T12:10:29.402Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;一、HTML的历史&quot;&gt;&lt;a href=&quot;#一、HTML的历史&quot; class=&quot;headerlink&quot; title=&quot;一、HTML的历史&quot;&gt;&lt;/a&gt;一、HTML的历史&lt;/h3&gt;&lt;p&gt;  HTML,超文本标记语言，英文全称是Hyper Text Markup
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Web前端" scheme="https://yafine-blog.cn/categories/Web%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="HTML" scheme="https://yafine-blog.cn/tags/HTML/"/>
+    
+      <category term="笔记" scheme="https://yafine-blog.cn/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>浏览器介绍</title>
+    <link href="https://yafine-blog.cn/posts/6da42d6b.html"/>
+    <id>https://yafine-blog.cn/posts/6da42d6b.html</id>
+    <published>2019-10-31T13:00:10.000Z</published>
+    <updated>2020-02-15T12:09:59.321Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;1-浏览器介绍&quot;&gt;&lt;a href=&quot;#1-浏览器介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 浏览器介绍&quot;&gt;&lt;/a&gt;1. 浏览器介绍&lt;/h2&gt;&lt;h3 id=&quot;1-1-概念&quot;&gt;&lt;a href=&quot;#1-1-概念&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Web前端" scheme="https://yafine-blog.cn/categories/Web%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="笔记" scheme="https://yafine-blog.cn/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+      <category term="浏览器知识" scheme="https://yafine-blog.cn/tags/%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9F%A5%E8%AF%86/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>开发工具的选择</title>
+    <link href="https://yafine-blog.cn/posts/10d0c9f1.html"/>
+    <id>https://yafine-blog.cn/posts/10d0c9f1.html</id>
+    <published>2019-10-31T12:52:15.000Z</published>
+    <updated>2020-02-15T12:09:56.698Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;正所谓“工欲善其事，必先利其器”，对Web开发人员来说，好工具的使用总会给人带来事半功倍的效果。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;  下面来说一下几种常用的开发工具：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;span
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Web前端" scheme="https://yafine-blog.cn/categories/Web%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="开发工具" scheme="https://yafine-blog.cn/tags/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>博客开始上线</title>
+    <link href="https://yafine-blog.cn/posts/1aa5f497.html"/>
+    <id>https://yafine-blog.cn/posts/1aa5f497.html</id>
+    <published>2019-10-29T04:00:00.000Z</published>
+    <updated>2020-02-21T06:11:48.450Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;  之前也整过Hexo的其他博客主题，像hexo-theme-sakura樱花主题，hexo-theme-butterfly主题，hexo-theme-Annie等主题，这个hexo-theme-Matery之前也用过一次，那时有些地方觉得不太好看，就换主题了。前几天又看到
+        
+      
+    
+    </summary>
+    
+    
+      <category term="随笔" scheme="https://yafine-blog.cn/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+      <category term="随笔" scheme="https://yafine-blog.cn/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+</feed>
