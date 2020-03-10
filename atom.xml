@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yafine-blog.cn/"/>
-  <updated>2020-02-28T14:05:09.080Z</updated>
+  <updated>2020-03-10T14:18:31.952Z</updated>
   <id>https://yafine-blog.cn/</id>
   
   <author>
@@ -15,6 +15,40 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用PicGo+Gitee(码云)搭建免费图床</title>
+    <link href="https://yafine-blog.cn/posts/15cb.html"/>
+    <id>https://yafine-blog.cn/posts/15cb.html</id>
+    <published>2020-03-10T12:40:13.000Z</published>
+    <updated>2020-03-10T14:18:31.952Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;之前讲到过使用PicGo+Github来搭建免费图床，今天来讲讲使用PicGo+Github来搭建图床，但有一点需要注意，就是码云仓库容量的限制。有社区版和企业版分别，如下表：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;功能特性&lt;/th&gt;
+&lt;th&gt;社区版&lt;/
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
+    
+      <category term="图床搭建" scheme="https://yafine-blog.cn/tags/%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>修改matery原有主题相册</title>
