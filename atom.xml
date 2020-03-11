@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yafine-blog.cn/"/>
-  <updated>2020-03-10T14:39:33.796Z</updated>
+  <updated>2020-03-11T00:52:05.215Z</updated>
   <id>https://yafine-blog.cn/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://yafine-blog.cn/posts/15cb.html"/>
     <id>https://yafine-blog.cn/posts/15cb.html</id>
     <published>2020-03-10T12:40:13.000Z</published>
-    <updated>2020-03-10T14:39:33.796Z</updated>
+    <updated>2020-03-11T00:52:05.215Z</updated>
     
     <summary type="html">
     
@@ -29,12 +29,12 @@
       
         
         
-          &lt;p&gt;之前讲到过使用PicGo+Github来搭建免费图床，今天来讲讲使用PicGo+Github来搭建图床，但有一点需要注意，就是码云仓库容量的限制。有社区版和企业版分别，如下表：&lt;/p&gt;
+          &lt;p&gt;之前讲到过使用PicGo+Github来搭建免费图床，今天来讲讲使用PicGo+Gitee来搭建图床，但有一点需要注意，就是码云仓库容量的限制。有社区版和企业版分别，如下表：&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
 &lt;th&gt;功能特性&lt;/th&gt;
-&lt;th&gt;社区版&lt;/
+&lt;th&gt;社区版&lt;/t
         
       
     
@@ -83,7 +83,7 @@
     <link href="https://yafine-blog.cn/posts/eb3a.html"/>
     <id>https://yafine-blog.cn/posts/eb3a.html</id>
     <published>2020-02-17T12:33:38.000Z</published>
-    <updated>2020-02-25T08:51:10.858Z</updated>
+    <updated>2020-03-10T14:41:22.897Z</updated>
     
     <summary type="html">
     
