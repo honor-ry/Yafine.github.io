@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yafine-blog.cn/"/>
-  <updated>2020-03-13T10:05:32.507Z</updated>
+  <updated>2020-03-16T14:44:46.839Z</updated>
   <id>https://yafine-blog.cn/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Typora集成PicGo图床服务</title>
+    <link href="https://yafine-blog.cn/posts/4e9b.html"/>
+    <id>https://yafine-blog.cn/posts/4e9b.html</id>
+    <published>2020-03-16T13:45:14.000Z</published>
+    <updated>2020-03-16T14:44:46.839Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;给大家推送一波福利，新版本的Markdown写作利器——&lt;strong&gt;Typora&lt;/strong&gt;，集成了PicGo服务，文章插入图片即可通过PicGo服务上传到图床内。废话不多说，直接开门见山！&lt;/p&gt;
+&lt;p&gt;如果软件下载比较慢的话，我放在了网盘上，方便大家下载，如果
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo博客" scheme="https://yafine-blog.cn/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
+    
+      <category term="图床搭建" scheme="https://yafine-blog.cn/tags/%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA/"/>
+    
+  </entry>
   
   <entry>
     <title>使用PicGo+Gitee(码云)搭建免费图床</title>
