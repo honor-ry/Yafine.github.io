@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yafine-blog.cn/"/>
-  <updated>2020-03-16T15:10:39.547Z</updated>
+  <updated>2020-03-17T14:50:06.839Z</updated>
   <id>https://yafine-blog.cn/</id>
   
   <author>
@@ -17,11 +17,123 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hexo+Github博客搭建之Matery主题个性化修改篇</title>
+    <link href="https://yafine-blog.cn/posts/8c84.html"/>
+    <id>https://yafine-blog.cn/posts/8c84.html</id>
+    <published>2020-03-17T09:37:28.000Z</published>
+    <updated>2020-03-17T14:50:06.839Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;div class=&quot;uk-alert uk-alert-warning&quot;&gt;&lt;i class=&quot;fa fa-exclamation-circle&quot;&gt;&lt;/i&gt;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo博客" scheme="https://yafine-blog.cn/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo+Github博客搭建之Matery主题安装配置篇</title>
+    <link href="https://yafine-blog.cn/posts/5dbf.html"/>
+    <id>https://yafine-blog.cn/posts/5dbf.html</id>
+    <published>2020-03-17T01:12:48.000Z</published>
+    <updated>2020-03-17T14:39:52.582Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;转自：&lt;/strong&gt;&lt;a href=&quot;https://github.com/blinkfox/hexo-theme-matery/blob/develop/README.md&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo博客" scheme="https://yafine-blog.cn/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo+Github博客搭建之环境搭建篇</title>
+    <link href="https://yafine-blog.cn/posts/7de0.html"/>
+    <id>https://yafine-blog.cn/posts/7de0.html</id>
+    <published>2020-03-17T01:02:57.000Z</published>
+    <updated>2020-03-17T14:39:52.602Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;Github账号的注册&quot;&gt;&lt;a href=&quot;#Github账号的注册&quot; class=&quot;headerlink&quot; title=&quot;Github账号的注册&quot;&gt;&lt;/a&gt;Github账号的注册&lt;/h1&gt;&lt;p&gt;打开Github&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo博客" scheme="https://yafine-blog.cn/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo+Github博客搭建之环境准备篇</title>
+    <link href="https://yafine-blog.cn/posts/bb7.html"/>
+    <id>https://yafine-blog.cn/posts/bb7.html</id>
+    <published>2020-03-17T00:34:04.000Z</published>
+    <updated>2020-03-17T14:39:52.598Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;转载此文章前，请先联系作者，经作者同意后再转载，并请注明原文链接和作者，整理这些不容易，最终版权归作者所有，谢谢合作！&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo博客" scheme="https://yafine-blog.cn/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Typora集成PicGo图床服务</title>
     <link href="https://yafine-blog.cn/posts/4e9b.html"/>
     <id>https://yafine-blog.cn/posts/4e9b.html</id>
     <published>2020-03-16T13:45:14.000Z</published>
-    <updated>2020-03-16T15:10:39.547Z</updated>
+    <updated>2020-03-17T14:38:29.985Z</updated>
     
     <summary type="html">
     
@@ -51,7 +163,7 @@
     <link href="https://yafine-blog.cn/posts/15cb.html"/>
     <id>https://yafine-blog.cn/posts/15cb.html</id>
     <published>2020-03-10T12:40:13.000Z</published>
-    <updated>2020-03-13T10:05:32.507Z</updated>
+    <updated>2020-03-17T14:37:19.839Z</updated>
     
     <summary type="html">
     
@@ -85,7 +197,7 @@
     <link href="https://yafine-blog.cn/posts/3b98.html"/>
     <id>https://yafine-blog.cn/posts/3b98.html</id>
     <published>2020-02-21T14:41:29.000Z</published>
-    <updated>2020-03-13T10:05:45.243Z</updated>
+    <updated>2020-03-17T14:37:25.949Z</updated>
     
     <summary type="html">
     
@@ -113,7 +225,7 @@
     <link href="https://yafine-blog.cn/posts/eb3a.html"/>
     <id>https://yafine-blog.cn/posts/eb3a.html</id>
     <published>2020-02-17T12:33:38.000Z</published>
-    <updated>2020-03-13T10:05:39.214Z</updated>
+    <updated>2020-03-17T14:37:23.242Z</updated>
     
     <summary type="html">
     
@@ -143,7 +255,7 @@
     <link href="https://yafine-blog.cn/posts/ee35.html"/>
     <id>https://yafine-blog.cn/posts/ee35.html</id>
     <published>2020-02-17T12:22:48.000Z</published>
-    <updated>2020-03-13T10:05:28.103Z</updated>
+    <updated>2020-03-17T14:37:14.677Z</updated>
     
     <summary type="html">
     
@@ -175,7 +287,7 @@
     <link href="https://yafine-blog.cn/posts/49fb.html"/>
     <id>https://yafine-blog.cn/posts/49fb.html</id>
     <published>2020-02-17T10:18:56.000Z</published>
-    <updated>2020-03-13T10:06:14.728Z</updated>
+    <updated>2020-03-17T14:38:23.401Z</updated>
     
     <summary type="html">
     
@@ -203,7 +315,7 @@
     <link href="https://yafine-blog.cn/posts/d0e9.html"/>
     <id>https://yafine-blog.cn/posts/d0e9.html</id>
     <published>2020-02-06T08:02:38.000Z</published>
-    <updated>2020-02-25T08:51:35.823Z</updated>
+    <updated>2020-03-17T14:38:08.999Z</updated>
     
     <summary type="html">
     
@@ -233,7 +345,7 @@
     <link href="https://yafine-blog.cn/posts/153b.html"/>
     <id>https://yafine-blog.cn/posts/153b.html</id>
     <published>2020-02-05T05:53:01.000Z</published>
-    <updated>2020-02-25T08:51:30.647Z</updated>
+    <updated>2020-03-17T14:38:06.627Z</updated>
     
     <summary type="html">
     
@@ -260,7 +372,7 @@
     <link href="https://yafine-blog.cn/posts/8094.html"/>
     <id>https://yafine-blog.cn/posts/8094.html</id>
     <published>2020-02-02T06:11:12.000Z</published>
-    <updated>2020-02-25T08:51:54.518Z</updated>
+    <updated>2020-03-17T14:38:26.689Z</updated>
     
     <summary type="html">
     
@@ -288,7 +400,7 @@
     <link href="https://yafine-blog.cn/posts/51fb.html"/>
     <id>https://yafine-blog.cn/posts/51fb.html</id>
     <published>2020-01-28T06:19:48.000Z</published>
-    <updated>2020-02-25T08:51:26.592Z</updated>
+    <updated>2020-03-17T14:38:03.839Z</updated>
     
     <summary type="html">
     
@@ -315,7 +427,7 @@
     <link href="https://yafine-blog.cn/posts/7fe2.html"/>
     <id>https://yafine-blog.cn/posts/7fe2.html</id>
     <published>2019-11-25T15:29:18.000Z</published>
-    <updated>2020-02-25T08:51:43.755Z</updated>
+    <updated>2020-03-17T14:38:16.339Z</updated>
     
     <summary type="html">
     
@@ -343,7 +455,7 @@
     <link href="https://yafine-blog.cn/posts/bc77.html"/>
     <id>https://yafine-blog.cn/posts/bc77.html</id>
     <published>2019-11-18T14:04:42.000Z</published>
-    <updated>2020-02-25T08:51:03.901Z</updated>
+    <updated>2020-03-17T14:37:11.890Z</updated>
     
     <summary type="html">
     
@@ -373,7 +485,7 @@
     <link href="https://yafine-blog.cn/posts/9620.html"/>
     <id>https://yafine-blog.cn/posts/9620.html</id>
     <published>2019-11-18T13:50:10.000Z</published>
-    <updated>2020-02-25T08:51:47.132Z</updated>
+    <updated>2020-03-17T14:38:19.450Z</updated>
     
     <summary type="html">
     
@@ -402,7 +514,7 @@
     <link href="https://yafine-blog.cn/posts/4ab2.html"/>
     <id>https://yafine-blog.cn/posts/4ab2.html</id>
     <published>2019-11-17T15:12:01.000Z</published>
-    <updated>2020-03-08T13:49:50.873Z</updated>
+    <updated>2020-03-17T14:37:57.674Z</updated>
     
     <summary type="html">
     
@@ -430,7 +542,7 @@
     <link href="https://yafine-blog.cn/posts/724a.html"/>
     <id>https://yafine-blog.cn/posts/724a.html</id>
     <published>2019-11-05T07:27:54.000Z</published>
-    <updated>2020-02-25T08:51:18.396Z</updated>
+    <updated>2020-03-17T14:37:28.877Z</updated>
     
     <summary type="html">
     
@@ -464,7 +576,7 @@
     <link href="https://yafine-blog.cn/posts/7aedb564.html"/>
     <id>https://yafine-blog.cn/posts/7aedb564.html</id>
     <published>2019-11-01T15:30:10.000Z</published>
-    <updated>2020-02-25T08:51:40.166Z</updated>
+    <updated>2020-03-17T14:38:13.517Z</updated>
     
     <summary type="html">
     
@@ -485,92 +597,6 @@
       <category term="HTML" scheme="https://yafine-blog.cn/tags/HTML/"/>
     
       <category term="笔记" scheme="https://yafine-blog.cn/tags/%E7%AC%94%E8%AE%B0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>浏览器介绍</title>
-    <link href="https://yafine-blog.cn/posts/6da42d6b.html"/>
-    <id>https://yafine-blog.cn/posts/6da42d6b.html</id>
-    <published>2019-10-31T13:00:10.000Z</published>
-    <updated>2020-02-25T08:50:58.416Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;1-浏览器介绍&quot;&gt;&lt;a href=&quot;#1-浏览器介绍&quot; class=&quot;headerlink&quot; title=&quot;1. 浏览器介绍&quot;&gt;&lt;/a&gt;1. 浏览器介绍&lt;/h2&gt;&lt;h3 id=&quot;1-1-概念&quot;&gt;&lt;a href=&quot;#1-1-概念&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Web前端" scheme="https://yafine-blog.cn/categories/Web%E5%89%8D%E7%AB%AF/"/>
-    
-    
-      <category term="笔记" scheme="https://yafine-blog.cn/tags/%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="浏览器知识" scheme="https://yafine-blog.cn/tags/%E6%B5%8F%E8%A7%88%E5%99%A8%E7%9F%A5%E8%AF%86/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>开发工具的选择</title>
-    <link href="https://yafine-blog.cn/posts/10d0c9f1.html"/>
-    <id>https://yafine-blog.cn/posts/10d0c9f1.html</id>
-    <published>2019-10-31T12:52:15.000Z</published>
-    <updated>2020-02-25T08:50:52.342Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;strong&gt;正所谓“工欲善其事，必先利其器”，对Web开发人员来说，好工具的使用总会给人带来事半功倍的效果。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;  下面来说一下几种常用的开发工具：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;span
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Web前端" scheme="https://yafine-blog.cn/categories/Web%E5%89%8D%E7%AB%AF/"/>
-    
-    
-      <category term="开发工具" scheme="https://yafine-blog.cn/tags/%E5%BC%80%E5%8F%91%E5%B7%A5%E5%85%B7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>博客开始上线</title>
-    <link href="https://yafine-blog.cn/posts/1aa5f497.html"/>
-    <id>https://yafine-blog.cn/posts/1aa5f497.html</id>
-    <published>2019-10-29T04:00:00.000Z</published>
-    <updated>2020-03-11T12:42:58.543Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;  之前也整过Hexo的其他博客主题，像hexo-theme-sakura樱花主题，hexo-theme-butterfly主题，hexo-theme-Annie等主题，这个hexo-theme-Matery之前也用过一次，那时有些地方觉得不太好看，就换主题了。前几天又看到
-        
-      
-    
-    </summary>
-    
-    
-      <category term="随笔" scheme="https://yafine-blog.cn/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-      <category term="随笔" scheme="https://yafine-blog.cn/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   
