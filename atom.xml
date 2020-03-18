@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yafine-blog.cn/"/>
-  <updated>2020-03-18T01:40:13.124Z</updated>
+  <updated>2020-03-18T08:40:33.155Z</updated>
   <id>https://yafine-blog.cn/</id>
   
   <author>
@@ -15,6 +15,115 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hexo博客新建文章自动打开编辑器</title>
+    <link href="https://yafine-blog.cn/posts/d17e.html"/>
+    <id>https://yafine-blog.cn/posts/d17e.html</id>
+    <published>2020-03-18T08:38:37.000Z</published>
+    <updated>2020-03-18T08:40:33.155Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;写新文章时，需要控制台执行&lt;code&gt;hexo new
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo博客" scheme="https://yafine-blog.cn/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo+Github博客搭建之域名解析与绑定篇</title>
+    <link href="https://yafine-blog.cn/posts/a170.html"/>
+    <id>https://yafine-blog.cn/posts/a170.html</id>
+    <published>2020-03-18T08:36:06.000Z</published>
+    <updated>2020-03-18T08:40:33.139Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;域名解析与绑定&quot;&gt;&lt;a href=&quot;#域名解析与绑定&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo博客" scheme="https://yafine-blog.cn/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo+Github博客搭建之添加评论系统篇</title>
+    <link href="https://yafine-blog.cn/posts/6fd7.html"/>
+    <id>https://yafine-blog.cn/posts/6fd7.html</id>
+    <published>2020-03-18T08:31:53.000Z</published>
+    <updated>2020-03-18T08:40:33.152Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;添加评论系统&quot;&gt;&lt;a href=&quot;#添加评论系统&quot; class=&quot;headerlink&quot; title=&quot;添加评论系统&quot;&gt;&lt;/a&gt;添加评论系统&lt;/h2&gt;&lt;p&gt;我只说几个常用的评论系统的配置方法，其他的就不说了。&lt;/p&gt;
+&lt;h2 id=&quot;添加来必力评论系统&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo博客" scheme="https://yafine-blog.cn/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hexo+Github博客搭建之博客优化篇</title>
+    <link href="https://yafine-blog.cn/posts/fc0.html"/>
+    <id>https://yafine-blog.cn/posts/fc0.html</id>
+    <published>2020-03-18T08:23:09.000Z</published>
+    <updated>2020-03-18T08:41:31.299Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;图片懒加载&quot;&gt;&lt;a href=&quot;#图片懒加载&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo博客" scheme="https://yafine-blog.cn/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo+Github博客搭建之Matery主题个性化修改篇</title>
@@ -477,126 +586,6 @@
     
     
       <category term="效率工具" scheme="https://yafine-blog.cn/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaScript简介</title>
-    <link href="https://yafine-blog.cn/posts/9620.html"/>
-    <id>https://yafine-blog.cn/posts/9620.html</id>
-    <published>2019-11-18T13:50:10.000Z</published>
-    <updated>2020-03-17T14:38:19.450Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;JavaScript是由Netscape公司开发的，最初的名字叫做Mocha，1995年9月改为LiveScript，当时的Java语言很流行，当年的12月，Netscape公司与Sun公司（Java语言的发明者和所有者）达成协议，允许Netscape将LiveScript
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Web前端" scheme="https://yafine-blog.cn/categories/Web%E5%89%8D%E7%AB%AF/"/>
-    
-    
-      <category term="笔记" scheme="https://yafine-blog.cn/tags/%E7%AC%94%E8%AE%B0/"/>
-    
-      <category term="JavaScript" scheme="https://yafine-blog.cn/tags/JavaScript/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hexo+github搭建博客(超级详细版，精细入微)</title>
-    <link href="https://yafine-blog.cn/posts/4ab2.html"/>
-    <id>https://yafine-blog.cn/posts/4ab2.html</id>
-    <published>2019-11-17T15:12:01.000Z</published>
-    <updated>2020-03-17T14:37:57.674Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;strong&gt;&lt;i class=&quot;fa fa-music&quot; aria-hidden=&quot;true&quot;&gt;&lt;/i&gt;&amp;nbsp;不妨一边听着一首歌曲，一边看教程！&lt;/strong&gt;&lt;/p&gt;
-&lt;iframe frameborder=&quot;no&quot; width=&quot;320&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Hexo博客" scheme="https://yafine-blog.cn/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
-    
-    
-      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>CSS3弹性盒子</title>
-    <link href="https://yafine-blog.cn/posts/724a.html"/>
-    <id>https://yafine-blog.cn/posts/724a.html</id>
-    <published>2019-11-05T07:27:54.000Z</published>
-    <updated>2020-03-17T14:37:28.877Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;blockquote&gt;
-&lt;p&gt;弹性盒模型的一些知识&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;一、简单介绍&quot;&gt;&lt;a href=&quot;#一、简单介绍&quot; class=&quot;headerlink&quot; title=&quot;一、简单介绍&quot;&gt;&lt;/a&gt;一、简单介绍&lt;/h2&gt;&lt;p&gt;  弹性盒模型（
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Web前端" scheme="https://yafine-blog.cn/categories/Web%E5%89%8D%E7%AB%AF/"/>
-    
-      <category term="CSS3" scheme="https://yafine-blog.cn/categories/Web%E5%89%8D%E7%AB%AF/CSS3/"/>
-    
-      <category term="笔记" scheme="https://yafine-blog.cn/categories/Web%E5%89%8D%E7%AB%AF/CSS3/%E7%AC%94%E8%AE%B0/"/>
-    
-    
-      <category term="CSS3" scheme="https://yafine-blog.cn/tags/CSS3/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>HTML基础知识总结</title>
-    <link href="https://yafine-blog.cn/posts/7aedb564.html"/>
-    <id>https://yafine-blog.cn/posts/7aedb564.html</id>
-    <published>2019-11-01T15:30:10.000Z</published>
-    <updated>2020-03-17T14:38:13.517Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;一、HTML的历史&quot;&gt;&lt;a href=&quot;#一、HTML的历史&quot; class=&quot;headerlink&quot; title=&quot;一、HTML的历史&quot;&gt;&lt;/a&gt;一、HTML的历史&lt;/h3&gt;&lt;p&gt;  HTML,超文本标记语言，英文全称是Hyper Text Markup
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Web前端" scheme="https://yafine-blog.cn/categories/Web%E5%89%8D%E7%AB%AF/"/>
-    
-    
-      <category term="HTML" scheme="https://yafine-blog.cn/tags/HTML/"/>
-    
-      <category term="笔记" scheme="https://yafine-blog.cn/tags/%E7%AC%94%E8%AE%B0/"/>
     
   </entry>
   
