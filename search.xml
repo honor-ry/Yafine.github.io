@@ -5,8 +5,8 @@
     
     <entry>
       <title>这是一个测试</title>
-      <link href="/posts/324b.html"/>
-      <url>/posts/324b.html</url>
+      <link href="/posts/324c.html"/>
+      <url>/posts/324c.html</url>
       
         <content type="html"><![CDATA[<p>这是一个测试页面</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
