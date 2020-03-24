@@ -48,6 +48,37 @@
   </entry>
   
   <entry>
+    <title>测试二</title>
+    <link href="https://yafine-blog.cn/posts/29ce.html"/>
+    <id>https://yafine-blog.cn/posts/29ce.html</id>
+    <published>2020-03-24T13:39:42.000Z</published>
+    <updated>2020-03-24T14:05:15.384Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;先湘鄂西&lt;/p&gt;
+&lt;script&gt;
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+          .forEach(el =&gt; {
+            if (!el.dataset.src) {
+        
+      
+    
+    </summary>
+    
+    
+      <category term="测试" scheme="https://yafine-blog.cn/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+    
+      <category term="测试" scheme="https://yafine-blog.cn/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Hexo博客新建文章自动打开编辑器</title>
     <link href="https://yafine-blog.cn/posts/d17e.html"/>
     <id>https://yafine-blog.cn/posts/d17e.html</id>
@@ -559,34 +590,6 @@
     
     
       <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>JavaScript的发展史</title>
-    <link href="https://yafine-blog.cn/posts/7fe2.html"/>
-    <id>https://yafine-blog.cn/posts/7fe2.html</id>
-    <published>2019-11-25T15:29:18.000Z</published>
-    <updated>2020-03-17T14:38:16.339Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;声明：&quot;&gt;&lt;a href=&quot;#声明：&quot; class=&quot;headerlink&quot; title=&quot;声明：&quot;&gt;&lt;/a&gt;声明：&lt;/h3&gt;&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;本文为转载文章，由微信公众号
-        
-      
-    
-    </summary>
-    
-    
-      <category term="转载" scheme="https://yafine-blog.cn/categories/%E8%BD%AC%E8%BD%BD/"/>
-    
-    
-      <category term="JavaScript" scheme="https://yafine-blog.cn/tags/JavaScript/"/>
     
   </entry>
   
