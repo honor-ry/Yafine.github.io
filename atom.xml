@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://yafine-blog.cn/"/>
-  <updated>2020-03-19T03:18:04.368Z</updated>
+  <updated>2020-03-25T07:58:04.656Z</updated>
   <id>https://yafine-blog.cn/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Matery主题添加loading-pages</title>
+    <link href="https://yafine-blog.cn/posts/7400.html"/>
+    <id>https://yafine-blog.cn/posts/7400.html</id>
+    <published>2020-03-25T07:41:24.000Z</published>
+    <updated>2020-03-25T07:58:04.656Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;应广大小伙伴的要求，更新一下文章，你们要的玩命加载动画教程来了，有句名言怎么说来着，我就像是海绵里的水，快要被你们挤光了。😂😂😂（我改编了一下名言）&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;首先在站点根目录下新建一个文件夹，名为&lt;stron
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Hexo博客" scheme="https://yafine-blog.cn/categories/Hexo%E5%8D%9A%E5%AE%A2/"/>
+    
+    
+      <category term="Hexo" scheme="https://yafine-blog.cn/tags/Hexo/"/>
+    
+  </entry>
   
   <entry>
     <title>Hexo博客新建文章自动打开编辑器</title>
@@ -334,7 +364,7 @@
     <link href="https://yafine-blog.cn/posts/eb3a.html"/>
     <id>https://yafine-blog.cn/posts/eb3a.html</id>
     <published>2020-02-17T12:33:38.000Z</published>
-    <updated>2020-03-17T14:37:23.242Z</updated>
+    <updated>2020-03-25T07:54:20.462Z</updated>
     
     <summary type="html">
     
@@ -556,36 +586,6 @@
     
     
       <category term="JavaScript" scheme="https://yafine-blog.cn/tags/JavaScript/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>实用的在线网站</title>
-    <link href="https://yafine-blog.cn/posts/bc77.html"/>
-    <id>https://yafine-blog.cn/posts/bc77.html</id>
-    <published>2019-11-18T14:04:42.000Z</published>
-    <updated>2020-03-17T14:37:11.890Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;不定时持续更新，如果你有好用的在线网站，欢迎来交流！如果网址失效，请及时联系我，我会及时进行相关的处理，谢谢您的支持！&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&quot;文档类&quot;&gt;&lt;a href=&quot;#文档类&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="实用工具集合" scheme="https://yafine-blog.cn/categories/%E5%AE%9E%E7%94%A8%E5%B7%A5%E5%85%B7%E9%9B%86%E5%90%88/"/>
-    
-    
-      <category term="效率工具" scheme="https://yafine-blog.cn/tags/%E6%95%88%E7%8E%87%E5%B7%A5%E5%85%B7/"/>
     
   </entry>
   
